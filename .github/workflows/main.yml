@@ -1,0 +1,33 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    if: "contains(github.event.head_commit.message, 'DEPLOY-TO-SITE')"
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2.3.2
+
+      - name: Use Node.js 12
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: 🔨 Build Project
+        run: |
+          yarn install 
+          yarn build
+        env:
+          CI: false
+
+      - name: 📂 Sync files
+        uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
+        with:
+          ftp_host: ftp://bemfilkom.ub.ac.id:21/
+          ftp_username: bemfilkom
+          ftp_password: ${{ secrets.FTP_PASSWORD }}
+          local_source_dir: "build"
+          dist_target_dir: "open"
+          # WARNING: OPTION BELOW DELETES/REPLACES ALL REMOTE FILES THAT'S NOT IN BUILD! DONT USE FOR MAIN WEB DEPLOY!
+          delete: "false" 
