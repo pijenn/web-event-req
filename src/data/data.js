@@ -17,8 +17,8 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/djpkvtoql/image/upload/v1727707915/mawapres.jpg`,
     openDate: new Date("2024-10-07T15:00:00.999+07:00"),
-    closeDate: new Date("2025-10-16T00:00:00.999+07:00"),
-    announceDate: new Date("2025-10-16T19:00:00.999+07:00"),
+    closeDate: new Date("2024-10-16T00:00:00.999+07:00"),
+    announceDate: new Date("2024-10-16T19:00:00.999+07:00"),
     onlyFor: [22, 23], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
     timeline: [
@@ -393,7 +393,7 @@ export const oprecInfo = [
     //  * *FOR EXTEND
     // closeDate: new Date("2025-02-14T23:00:00.000+07:00"),
     announceDate: new Date("2025-02-23T20:15:00.000+07:00"),
-    onlyFor: [22, 23, 24], // Angkatan berapa yg diterima
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: false, //Timeline Extends atau tidak
     timeline: [
       {
