@@ -4,7 +4,6 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "@craco/craco": "^6.4.3",
     "conversational-form": "^1.0.2",
     "craco": "^0.0.3",
     "jwt-decode": "^3.1.2",
@@ -13,7 +12,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.0",
-    "react-scripts": "^4.0.2",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "devDependencies": {
@@ -25,9 +24,10 @@
     "postcss-preset-env": "^6.7.0"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "cross-env GENERATE_SOURCEMAP=false craco build",
-    "test": "craco test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
