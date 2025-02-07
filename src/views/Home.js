@@ -59,7 +59,7 @@ const Home = () => {
           >
             <div className="self-center max-w-5xl text-center">
               <h1 className="text-4xl mb-10 font-extrabold tracking-tight md:text-4xl text-white uppercase">
-                Tentang {dataOprec.name}
+                About {dataOprec.name}
                 <div className="w-12 h-1 mt-3 bg-newOrange mx-auto"></div>
               </h1>
               <div className="flex flex-col text-lg tracking-tight leading-relaxed text-justify text-white">
@@ -82,7 +82,7 @@ const Home = () => {
             {/*Title*/}
             <div className="text-4xl mb-10 self-center max-w-5xl text-center">
               <div className="font-extrabold tracking-tight uppercase">
-                Linimasa {dataOprec.name}
+                Timeline {dataOprec.name}
                 {dataOprec.extends ? (
                   <div className="text-lg italic mt-4 font-normal tracking-tighter">
                     UPDATE TERBARU EXTEND
@@ -115,7 +115,7 @@ const Home = () => {
             <div className="flex flex-col md:space-y-0 md:flex-row content-center justify-between flex-grow w-full lg:text-left text-center lg:pl-8 lg:pr-20 lg:pt-12">
             <div>
             <div className="lg:mt-12 text-4xl md:text-6xl text-shadow-lg font-extrabold leading-relaxed tracking-tighter text-newOrange text-center lg:text-left">
-             Siap mendaftar?
+             Ready to sign up?
              </div>
             <div className="text-1xl md:text-1xl mt-4 text-shadow-lg leading-relaxed tracking-tighter text-newOrange text-center lg:text-left">
             {dataOprec.quotes}
@@ -127,7 +127,7 @@ const Home = () => {
            className="text-center py-4 px-12 text-3xl font-bold bg-gradient-to-r bg-newOrange text-white rounded-full shadow-md hover:bg-white hover:border-newOrange hover:border-2 hover:text-green transition ease-linear focus:outline-noned"
             tabIndex="-1"
              >
-            Daftar
+            Register
            </Link>
             </div>
           </div>

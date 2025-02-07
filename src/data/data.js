@@ -379,7 +379,7 @@ export const oprecInfo = [
   // Oprec Staff Ahli SGE FILKOM UB 2025
   {
     id: "2025-OprecStaffAhli", // id oprec formatnya tahun-oprec
-    name: "Oprec Staff Ahli", // nama buat di tentang
+    name: "Grand Recruitment Staff", // nama buat di tentang
     title: [
       "Grand Recruitment", // line 1
       "Staff SGE FILKOM 2025", // line 2
@@ -398,23 +398,23 @@ export const oprecInfo = [
     extends: false, //Timeline Extends atau tidak
     timeline: [
       {
-        date: "03 Februari 2025",
+        date: "03 February 2025",
         description: "Coming Soon 🚀",
       },
       {
-        date: "07 - 12 Februari 2025",
+        date: "07 - 12 February 2025",
         description: "Open Recruitment 📝",
       },
       {
-        date: "10 - 15 Februari 2025",
+        date: "10 - 15 February 2025",
         description: "Screening 👨‍💻",
       },
       {
-        date: "16 Februari 2025",
+        date: "16 February 2025",
         description: "Leaderless Group Discussion 💬",
       },
       {
-        date: "23 Februari 2025",
+        date: "23 February 2025",
         description: "Announcement 📢",
       },
 
@@ -467,7 +467,7 @@ export const oprecInfo = [
       {
         description:
           "b. Participants download and fill in the registration file.",
-        titleLink: "Download the soft file (UB email)",
+        titleLink: "Access the soft file (UB email)",
         link: "https://linktr.ee/grandrecruitmentsgefilkomub",
       },
       {
@@ -476,7 +476,7 @@ export const oprecInfo = [
       },
       {
         description:
-          "d. Participants read the Grand Recruitment Guide, Terms, and General Rules. Participants download the twibbon provided, upload a photo of themselves on their personal Instagram account, and tag @bemfilkomub.",
+          "d. Participants read the Grand Recruitment Guide, Terms, and General Rules. Participants download the twibbon & snapgram campaign provided, upload a photo of yourself on your personal Instagram account, and tag @bemfilkomub.",
       },
       {
         description:
