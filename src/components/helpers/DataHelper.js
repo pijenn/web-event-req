@@ -99,8 +99,6 @@ const getFormFields = (data) => {
     }
   });
 
-  console.log(pattern);
-
   data.formFields.map((item) => {
     let isValid = true;
     let field = {};
