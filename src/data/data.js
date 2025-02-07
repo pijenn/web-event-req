@@ -509,7 +509,7 @@ export const oprecInfo = [
       },
       {
         description:
-          "3.Participants must attend the Leaderless Group Discussion (LGD), with the schedule to be announced in the LINE group.",
+          "3. Participants are required to attend the Leaderless Group Discussion (LGD) whose schedule will be announced in the LINE group. LGD will be held offline. all information related to LGD will be informed no later than H-1 before the implementation.",
       },
     ], //isi dari alur pendaftaran
     formFields: [
