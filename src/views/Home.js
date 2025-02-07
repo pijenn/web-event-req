@@ -31,7 +31,7 @@ const Home = () => {
             <div className="relative flex flex-col content-center justify-center flex-grow bg-white bg-opacity-60">
               <header className="relative z-10 flex flex-col content-center justify-center flex-grow h-full min-h-screen p-16 space-x-0 md:space-x-6 md:flex-row md:justify-center">
                 <img
-                  className="self-center pt-4 md:p-0 md:h-64 md:ml-6"
+                  className="self-center pt-4 h-60 md:p-0 md:h-64 md:ml-6"
                   src={dataOprec.logo}
                   alt="Logo"
                 />

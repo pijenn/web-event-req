@@ -1,5 +1,6 @@
 const LOGO_BEM =
   "https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg";
+  // "https://res.cloudinary.com/dnnznx7sj/image/upload/v1738926431/bwrve3haa0ys0ih0vpae.png";
 
 export const oprecInfo = [ 
   // Opreg Mawapres 2024
@@ -380,7 +381,7 @@ export const oprecInfo = [
     id: "2025-OprecStaffAhli", // id oprec formatnya tahun-oprec
     name: "Oprec Staff Ahli", // nama buat di tentang
     title: [
-      "Open Recruitment", // line 1
+      "Grand Recruitment", // line 1
       "Staff SGE FILKOM 2025", // line 2
     ],
     description: [
@@ -389,7 +390,7 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dnyrrcacd/image/upload/v1707910169/OPREC%202024/staff_ahli_wn6vut.jpg`,
     openDate: new Date("2025-02-03T00:00:00.000+07:00"),
-    closeDate: new Date("2025-02-13T23:59:59.999+07:00"),
+    closeDate: new Date("2025-02-12T23:59:59.999+07:00"),
     //  * *FOR EXTEND
     // closeDate: new Date("2025-02-14T23:00:00.000+07:00"),
     announceDate: new Date("2025-02-23T20:15:00.000+07:00"),
@@ -405,16 +406,16 @@ export const oprecInfo = [
         description: "Open Recruitment 📝",
       },
       {
-        date: "16 Februari 2025",
-        description: "Leaderless Group Discussion 💬",
-      },
-      {
         date: "10 - 15 Februari 2025",
         description: "Screening 👨‍💻",
       },
       {
+        date: "16 Februari 2025",
+        description: "Leaderless Group Discussion 💬",
+      },
+      {
         date: "23 Februari 2025",
-        description: "Pengumuman 📢",
+        description: "Announcement 📢",
       },
 
       /** *TIMELINE --EXTEND-- */
