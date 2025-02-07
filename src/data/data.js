@@ -1,5 +1,5 @@
 const LOGO_BEM =
-  "https://res.cloudinary.com/dnyrrcacd/image/upload/v1707911498/OPREC%202024/LogoNoText_ei3ill.png";
+  "https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg";
 
 export const oprecInfo = [ 
   // Opreg Mawapres 2024
@@ -401,7 +401,7 @@ export const oprecInfo = [
         description: "Coming Soon 🚀",
       },
       {
-        date: "07 - 13 Februari 2025",
+        date: "07 - 12 Februari 2025",
         description: "Open Recruitment 📝",
       },
       {
@@ -423,7 +423,7 @@ export const oprecInfo = [
       //   description: "Coming Soon 🚀",
       // },
       // {
-      //   date: "07 - 14 Februari 2025",
+      //   date: "07 - 13 Februari 2025",
       //   description: "Open Recruitment 📝",
       // },
       // {
@@ -431,7 +431,7 @@ export const oprecInfo = [
       //   description: "Leaderless Group Discussion 💬",
       // },
       // {
-      //   date: "10 - 16 Februari 2025",
+      //   date: "10 - 15 Februari 2025",
       //   description: "Screening 👨‍💻",
       // },
       // {
@@ -607,7 +607,7 @@ export const oprecInfo = [
     },
     afterMessage: [
       "Terima kasih!",
-      "Kamu telah berhasil terdaftar sebagai calon Staff Ahli BEM FILKOM 2025!",
+      "Kamu telah berhasil terdaftar sebagai calon Staff SGE FILKOM 2025!",
       "Link Grup : <a target='_blank' href='https://line.me/ti/g/NmGPR2BcxF' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
     ],
     closedMessage: [
