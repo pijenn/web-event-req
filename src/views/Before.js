@@ -49,7 +49,7 @@ const Before = () => {
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="w-[75px] mx-auto px-6 text-center font-medium py-2 bg-green text-putih rounded-full border-white border-2 shadow-md hover:bg-gray-200 hover:text-newOrange transition ease-linear focus:outline-none mt-2"
+                          className="mx-auto px-6 text-center font-medium py-2 bg-green text-putih rounded-full border-white border-2 shadow-md hover:bg-gray-200 hover:text-newOrange transition ease-linear focus:outline-none mt-2"
                           tabIndex="-1"
                         >
                           {item.titleLink}
