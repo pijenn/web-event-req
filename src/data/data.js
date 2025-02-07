@@ -467,7 +467,7 @@ export const oprecInfo = [
         description:
           "b. Participants download and fill in the registration file.",
         titleLink: "Download the soft file (UB email)",
-        link: "https://clips.id/SGE_GrandRecruitment_File",
+        link: "https://linktr.ee/grandrecruitmentsgefilkomub",
       },
       {
         description:

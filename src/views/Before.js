@@ -28,7 +28,7 @@ const Before = () => {
               <div className="self-center text-center md:text-left">
                 <img
                   className="self-center -mt-6 h-40 md:h-56 md:ml-6 lg:h-56 pb-4"
-                  src="https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727536384/alur-judul_relnxt.png"
+                  src="https://res.cloudinary.com/dnnznx7sj/image/upload/v1738913486/judul-regis.png"
                   alt="Logo"
                 />
                 <div className="max-w-xl">
@@ -67,8 +67,8 @@ const Before = () => {
                           className="pt-4"
                           src={
                             isHovered
-                              ? "https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727536430/tombol-daftar-hover_shsijm.png"
-                              : "https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727536349/tombol-daftar_ntlspl.png"
+                              ? "https://res.cloudinary.com/dnnznx7sj/image/upload/v1738913487/tombol-daftar-hover.png"
+                              : "https://res.cloudinary.com/dnnznx7sj/image/upload/v1738913488/tombol-daftar.png"
                           }
                           alt="Daftar"
                           onMouseEnter={() => setIsHovered(true)}
@@ -86,7 +86,7 @@ const Before = () => {
         <>
           <section className="relative flex flex-col content-center justify-center flex-grow h-screen overflow-hidden bg-coffeetint">
             <div className="self-center max-w-5xl text-4xl text-center text-newPurple font-bold">
-              Halaman Tidak Ditemukan
+              Page Not Found
             </div>
           </section>
         </>

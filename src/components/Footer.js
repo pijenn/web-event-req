@@ -26,7 +26,7 @@ const Footer = () => {
             className="transition duration-300 transform hover:scale-125"
           >
             <img
-              src="https://ynftaugbdkwjeuzndwzp.supabase.co/storage/v1/object/public/web-bem-2024/asset/ig.png"
+              src="https://res.cloudinary.com/dnnznx7sj/image/upload/v1738914068/instagram.png"
               alt="Instagram"
               className="w-12"
             />
