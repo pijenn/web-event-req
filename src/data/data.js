@@ -409,7 +409,7 @@ export const oprecInfo = [
         description: "Leaderless Group Discussion 💬",
       },
       {
-        date: "10 - 16 Februari 2025",
+        date: "10 - 15 Februari 2025",
         description: "Screening 👨‍💻",
       },
       {
@@ -467,7 +467,7 @@ export const oprecInfo = [
         description:
           "b. Participants download and fill in the registration file.",
         titleLink: "Download the soft file (UB email)",
-        link: "http://clips.id/SGE-Recruitment-File",
+        link: "https://clips.id/SGE_GrandRecruitment_File",
       },
       {
         description:
@@ -475,17 +475,17 @@ export const oprecInfo = [
       },
       {
         description:
-          "d. Participants download the twibbon that has been provided and upload a photo of themselves via personal Instagram social media, and tag the Instagram account @bemfilkomub (according to the twibbon provisions).",
+          "d. Participants read the Grand Recruitment Guide, Terms, and General Rules. Participants download the twibbon provided, upload a photo of themselves on their personal Instagram account, and tag @bemfilkomub.",
       },
       {
         description:
-          "e. Participants upload the Registration File into a personal Google Drive folder",
+          "e. Participants upload their completed registration documents to their personal Google Drive folder (make sure the folder link is public/shareable).",
 
         note: "(access to the Google Drive folder link must be public/shareable).",
       },
       {
         description:
-          "f. Participants agree to the Statement of Commitment that has been filled out and agree to the General Regulations and Code of Ethics of SGE FILKOM 2025.",
+          "f. Participants sign the Commitment Agreement Letter and agree to the General Rules of SGE FILKOM 2025.",
       },
       {
         description:
@@ -493,23 +493,23 @@ export const oprecInfo = [
       },
       {
         description:
-          "h. Participants are required to enter the LINE Open Recruitment Staff SGE FILKOM 2025 group (Group link will appear after participants submit registration on the web).",
+          "h. Participants must join the LINE group for Staff Candidates of SGE FILKOM 2025 (the group link will appear after submitting the registration form).",
       },
       {
         description:
-          "2. Participants are required to take part in a Leaderless Group Discussion (LGD) with a schedule that will be informed through the LINE Open Recruitment Staff BEM FILKOM 2025 group.",
+          "2. Participants must join the next stage, which is the Screening/Interview. The schedule will be announced at the latest one day before the interview.",
       },
       {
         description:
-          "3. Participants are required to take part in the next stage, namely Screening / Interview which is offline after the Leaderless Group Discussion (LGD) stage with a schedule that will be informed no later than H-1 of the interview schedule.",
+          "a. The committee will confirm attendance on the interview day.",
       },
       {
         description:
-          "4. The committee will confirm the attendance of the interview on the day of the interview.",
+          "b. Participants must arrive 30 minutes before their scheduled interview time.",
       },
       {
         description:
-          "5. Participants must be present 30 minutes before the interview schedule that has been informed.",
+          "3.Participants must attend the Leaderless Group Discussion (LGD), with the schedule to be announced in the LINE group.",
       },
     ], //isi dari alur pendaftaran
     formFields: [
