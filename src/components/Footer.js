@@ -15,7 +15,7 @@ const Footer = () => {
         </h1>
         <p className="tracking-tight">
           <span className="font-semibold font-Lato">
-            &copy; {new Date().getFullYear()} BEM FILKOM UB
+            &copy; {new Date().getFullYear()} SGE FILKOM UB kabinet Vox Aeterna
           </span>
         </p>
         <div className="flex flex-wrap flex-row justify-center pb-10 pt-10 space-x-4">

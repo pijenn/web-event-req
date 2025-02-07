@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { CheckUser, invalidateSession } from "./helpers/SessionHelper";
 import { getPathName } from "./helpers/DataHelper";
-import logoNoText from "../assets/images/LogoNoText.png";
 
 const Navbar = () => {
   const [showMenu, setMenu] = useState(false);
@@ -22,14 +21,14 @@ const Navbar = () => {
       <div className="self-center flex flex-col md:space-y-0 md:flex-row content-center justify-between flex-grow w-5/6">
         <div className="flex">
           <img
-            src={logoNoText}
+            src="https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg"
             className="hidden md:flex w-11 h-11 pointer-events-none mr-2"
           />
           <Link
             to="/"
             className="hidden md:flex self-center text-md md:text-2xl font-semibold leading-relaxed text-shadow-md text-white text-center md:text-left"
           >
-            BEM FILKOM
+            SGE FILKOM
           </Link>
         </div>
 
