@@ -16,7 +16,7 @@ const Login = () => {
   useEffect(() => {
     document.title = dataOprec
       ? `${dataOprec.title[0]} ${dataOprec.title[1]}`
-      : "Web Event Request BEM FILKOM 2025";
+      : "Web Event Request SGE FILKOM 2025";
   }, [year, oprec]);
 
   useEffect(() => {

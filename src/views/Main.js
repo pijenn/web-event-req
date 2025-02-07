@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getCurrentOprec } from "../components/helpers/DataHelper";
 import background from "../assets/images/dust.svg";
-import logoNoText from "../assets/images/LogoNoText.png";
 
 const Card = ({
   id,
@@ -94,7 +93,7 @@ const Card = ({
 const Main = () => {
   const currentOprec = getCurrentOprec();
   useEffect(() => {
-    document.title = `Web Event Request BEM FILKOM 2025`;
+    document.title = `Web Event Request SGE FILKOM 2025`;
   }, []);
   return (
     <>
@@ -109,14 +108,14 @@ const Main = () => {
     >
         <div className="flex">
           <img
-            src={logoNoText}
+            src="https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg"
             className="w-11 h-11 pointer-events-none mr-2 ml-8"
           />
           <Link
             to={"/"}
             className="sm:text-xl px-2 py-2 text-lg font-semibold leading-relaxed text-shadow-md text-white text-left"
           >
-            BEM FILKOM
+            SGE FILKOM
           </Link>
         </div>
       </nav>

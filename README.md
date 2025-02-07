@@ -1,2 +1,2 @@
 # oprec
-BEM FILKOM Oprec Frontend Repository
+SGE FILKOM Oprec Frontend Repository

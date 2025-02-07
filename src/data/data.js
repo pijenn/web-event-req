@@ -375,7 +375,7 @@ export const oprecInfo = [
     ],
   },
 
-  // Oprec Staff Ahli BEM FILKOM UB 2025
+  // Oprec Staff Ahli SGE FILKOM UB 2025
   {
     id: "2025-OprecStaffAhli", // id oprec formatnya tahun-oprec
     name: "Oprec Staff Ahli", // nama buat di tentang

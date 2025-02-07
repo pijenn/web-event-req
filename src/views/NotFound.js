@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 const NotFound = () => {
   useEffect(() => {
-    document.title = `Web Event Request BEM FILKOM 2022`;
+    document.title = `Web Event Request SGE FILKOM 2025`;
   }, []);
   return (
     <>
