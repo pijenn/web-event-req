@@ -390,56 +390,32 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dnyrrcacd/image/upload/v1707910169/OPREC%202024/staff_ahli_wn6vut.jpg`,
     openDate: new Date("2025-02-03T00:00:00.000+07:00"),
-    closeDate: new Date("2025-02-12T23:59:59.999+07:00"),
-    //  * *FOR EXTEND
-    // closeDate: new Date("2025-02-14T23:00:00.000+07:00"),
+    closeDate: new Date("2025-02-14T23:00:00.000+07:00"),
     announceDate: new Date("2025-02-23T20:15:00.000+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
-      {
-        date: "03 February 2025",
-        description: "Coming Soon 🚀",
-      },
-      {
-        date: "07 - 12 February 2025",
-        description: "Open Recruitment 📝",
-      },
-      {
-        date: "10 - 15 February 2025",
-        description: "Screening 👨‍💻",
-      },
-      {
-        date: "16 February 2025",
-        description: "Leaderless Group Discussion 💬",
-      },
-      {
-        date: "23 February 2025",
-        description: "Announcement 📢",
-      },
-
-      /** *TIMELINE --EXTEND-- */
-      // {
-      //   date: "03 Februari 2025",
-      //   description: "Coming Soon 🚀",
-      // },
-      // {
-      //   date: "07 - 13 Februari 2025",
-      //   description: "Open Recruitment 📝",
-      // },
-      // {
-      //   date: "16 Februari 2025",
-      //   description: "Leaderless Group Discussion 💬",
-      // },
-      // {
-      //   date: "10 - 15 Februari 2025",
-      //   description: "Screening 👨‍💻",
-      // },
-      // {
-      //   date: "23 Februari 2025",
-      //   description: "Pengumuman 📢",
-      // },
-    ], //semisal extends timelinenya diubah juga
+       {
+         date: "03 Februari 2025",
+         description: "Coming Soon 🚀",
+       },
+       {
+         date: "07 - 16 Februari 2025",
+         description: "Open Recruitment 📝",
+       },
+       {
+         date: "22 Februari 2025",
+         description: "Leaderless Group Discussion 💬",
+       },
+       {
+         date: "10 - 18 Februari 2025",
+         description: "Screening 👨‍💻",
+       },
+       {
+         date: "23 Februari 2025",
+         description: "Pengumuman 📢",
+       },
+    ], 
 
     quotes:
       "", //kalo gaada quotes bisa dikosongkan
