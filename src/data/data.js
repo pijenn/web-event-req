@@ -389,8 +389,8 @@ export const oprecInfo = [
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dnyrrcacd/image/upload/v1707910169/OPREC%202024/staff_ahli_wn6vut.jpg`,
-    openDate: new Date("2025-02-03T00:00:00.000+07:00"),
-    closeDate: new Date("2025-02-14T23:00:00.000+07:00"),
+    openDate: new Date("2025-02-07T00:00:00.000+07:00"),
+    closeDate: new Date("2025-02-16T23:00:00.000+07:00"),
     announceDate: new Date("2025-02-23T20:15:00.000+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
