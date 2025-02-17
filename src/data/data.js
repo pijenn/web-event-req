@@ -391,7 +391,7 @@ export const oprecInfo = [
     landingImage: `https://res.cloudinary.com/dnyrrcacd/image/upload/v1707910169/OPREC%202024/staff_ahli_wn6vut.jpg`,
     openDate: new Date("2025-02-07T00:00:00.000+07:00"),
     closeDate: new Date("2025-02-17T06:00:00.000+07:00"),
-    announceDate: new Date("2025-02-23T20:15:00.000+07:00"),
+    announceDate: new Date("2025-02-26T20:19:00.000+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
     timeline: [
@@ -412,7 +412,7 @@ export const oprecInfo = [
          description: "Screening 👨‍💻",
        },
        {
-         date: "23 Februari 2025",
+         date: "26 Februari 2025",
          description: "Pengumuman 📢",
        },
     ], 
