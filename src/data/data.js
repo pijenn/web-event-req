@@ -391,7 +391,7 @@ export const oprecInfo = [
     landingImage: `https://res.cloudinary.com/dnyrrcacd/image/upload/v1707910169/OPREC%202024/staff_ahli_wn6vut.jpg`,
     openDate: new Date("2025-02-07T00:00:00.000+07:00"),
     closeDate: new Date("2025-02-17T06:00:00.000+07:00"),
-    announceDate: new Date("2025-02-26T20:19:00.000+07:00"),
+    announceDate: new Date("2025-02-24T19:00:00.000+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
     timeline: [
@@ -412,7 +412,7 @@ export const oprecInfo = [
          description: "Screening 👨‍💻",
        },
        {
-         date: "26 Februari 2025",
+         date: "24 Februari 2025",
          description: "Pengumuman 📢",
        },
     ], 
@@ -596,13 +596,11 @@ export const oprecInfo = [
       "Selamat!!!", // !!JANGAN DIGANTI
       "Welcome to SGE FILKOM 2025!! 🎉🔥\n\n",
       "Please join the following group : \n <a target='_blank' href='' class='text-blue-800 font-bold'>Klik di sini!</a> ",
-      "disini ada berkas transparansi?"
     ],
     rejectMessage: [
       "Mohon maaf", // !!JANGAN DIGANTI
       "Thank you for your participation in the Interview and LGD phase. After considering all the applications submitted in the recruitment, interviews, and LGD it is with a heavy heart that we inform you that you didn’t pass the process.",
       "We truly appreciate your interest in SGE FILKOM and wish you the very best in your future endeavors.🔥",
-      "disini ada berkas transparansi?"
     ],
   },
 ];

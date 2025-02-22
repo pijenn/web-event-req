@@ -67,7 +67,45 @@ Selamat telah menjadi bagian dari Keluarga Arthakara. Nantikan informasi First G
                   "Kok ngecek pengumuman :(",
                 ]);
               });
-          } else {
+          } 
+// else if (dataOprec.id === "2025-OprecStaffAhli") {
+//             fetch(
+//               `https://oprec-stafmud-be.vercel.app/transparansi/${getUserData.nim}`,
+//               {
+//                 method: "GET",
+//               }
+//             )
+//               .then((reply) => {
+//                 if (reply.status !== 200) throw Error;
+//                 return reply.json();
+//               })
+//               .then((res) => {
+//                 if (reply.success === true) {
+//                   setAnnouncement(
+//                     dataOprec.acceptMessage.concat(
+//                       `
+// SELAMAT!! Kamu telah terpilih menjadi salah satu Staf Muda BEM FILKOM UB 2024!\n
+// Selamat telah menjadi bagian dari Keluarga Arthakara. Nantikan informasi First Gathering Staf Muda BEM FILKOM UB 2024 yaa!\n
+// <a target='_blank' href='${res.data.link_transparansi}' class='font-bold underline text-blue-900'>Klik di sini</a> untuk melihat transparansi nilai kamu!`
+//                     )
+//                   );
+//                 } else {
+//                   setAnnouncement(
+//                     dataOprec.rejectMessage.concat(
+//                       `<a target='_blank' href='${res.data.link_transparansi}' class='font-bold underline text-blue-900'>Klik di sini</a> untuk melihat transparansi nilai kamu!`
+//                     )
+//                   );
+//                 }
+//               })
+//               .catch((err) => {
+//                 setAnnouncement([
+//                   "Waduh",
+//                   "Kamu kan gak daftar...",
+//                   "Kok ngecek pengumuman :(",
+//                 ]);
+//               });
+//           } 
+else {
             if (reply.success === true) {
               setAnnouncement(dataOprec.acceptMessage);
             } else {
@@ -114,28 +152,37 @@ Selamat telah menjadi bagian dari Keluarga Arthakara. Nantikan informasi First G
                 <div className="max-w-xl text-center">
                   <div className="flex flex-col justify-center md:justify-start text-md leading-snug tracking-tighter text-gray-900 mt-5 ml-1">
                     {announcement[0] === "Selamat!!!" ? (
-                      <div className="flex flex-col space-y-3 p-4 bg-green text-white rounded-lg shadow-md transition ease-linear">
-                        <span className="font-bold">{announcement[1]}</span>
-                        <p
-                          className="whitespace-pre-wrap leading-normal"
-                          dangerouslySetInnerHTML={{ __html: announcement[2] }}
-                        />
+                      <div className="flex flex-col space-y-3 p-4 bg-green text-white rounded-lg shadow-md transition ease-linear h-full w-full">
+                         <span className="font-bold">{announcement[1]}</span>
+                          {announcement.slice(2).map((item, index) => (
+                            <p
+                              key={index}
+                              className="whitespace-pre-wrap leading-normal"
+                              dangerouslySetInnerHTML={{ __html: item }}
+                            />
+                          ))}
                       </div>
                     ) : announcement[0] === "Mohon maaf.." ? (
-                      <div className="flex flex-col space-y-3 p-4 bg-red text-white rounded-lg shadow-md transition ease-linear">
+                      <div className="flex flex-col space-y-3 p-4 bg-red text-white rounded-lg shadow-md transition ease-linear h-full w-full">
                         <span className="font-bold">{announcement[1]}</span>
-                        <p
-                          className="whitespace-pre-wrap leading-normal"
-                          dangerouslySetInnerHTML={{ __html: announcement[2] }}
-                        />
+                        {announcement.slice(2).map((item, index) => (
+                            <p
+                              key={index}
+                              className="whitespace-pre-wrap leading-normal"
+                              dangerouslySetInnerHTML={{ __html: item }}
+                            />
+                          ))}
                       </div>
                     ) : (
                       <div className="flex flex-col space-y-3 p-4 bg-newBlue text-white rounded-lg shadow-md transition ease-linear">
                         <span className="font-bold">{announcement[1]}</span>
-                        <p
-                          className="whitespace-pre-wrap leading-normal"
-                          dangerouslySetInnerHTML={{ __html: announcement[2] }}
-                        />
+                        {announcement.slice(2).map((item, index) => (
+                            <p
+                              key={index}
+                              className="whitespace-pre-wrap leading-normal"
+                              dangerouslySetInnerHTML={{ __html: item }}
+                            />
+                          ))}
                       </div>
                     )}
                   </div>
