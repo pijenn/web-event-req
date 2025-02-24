@@ -59,7 +59,8 @@ const Login = () => {
         return reply.json();
       })
       .then((reply) => {
-        if (reply.success) {
+        console.log(reply);
+        if (reply.message === "successfully logged in") {
           setUserData(reply.data, reply.token);
           setMessage("⏳  Redirecting...");
           setProgress(false);

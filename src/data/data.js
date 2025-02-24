@@ -575,7 +575,7 @@ export const oprecInfo = [
       },
     ], //isi dari form field chat
     api: {
-      auth: "https://bemfilkom-rest.vercel.app/auth",
+      auth: "https://bemfilkom.ddns.net:8443/",
       check: "https://bemfilkom-rest.vercel.app/check/2025/OprecStaffAhli", // Check if registrant is already registered
       register:
         "https://bemfilkom-rest.vercel.app/register/2025/OprecStaffAhli", // Input registrant data
