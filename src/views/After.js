@@ -68,43 +68,40 @@ Selamat telah menjadi bagian dari Keluarga Arthakara. Nantikan informasi First G
                 ]);
               });
           } 
-// else if (dataOprec.id === "2025-OprecStaffAhli") {
-//             fetch(
-//               `https://oprec-stafmud-be.vercel.app/transparansi/${getUserData.nim}`,
-//               {
-//                 method: "GET",
-//               }
-//             )
-//               .then((reply) => {
-//                 if (reply.status !== 200) throw Error;
-//                 return reply.json();
-//               })
-//               .then((res) => {
-//                 if (reply.success === true) {
-//                   setAnnouncement(
-//                     dataOprec.acceptMessage.concat(
-//                       `
-// SELAMAT!! Kamu telah terpilih menjadi salah satu Staf Muda BEM FILKOM UB 2024!\n
-// Selamat telah menjadi bagian dari Keluarga Arthakara. Nantikan informasi First Gathering Staf Muda BEM FILKOM UB 2024 yaa!\n
-// <a target='_blank' href='${res.data.link_transparansi}' class='font-bold underline text-blue-900'>Klik di sini</a> untuk melihat transparansi nilai kamu!`
-//                     )
-//                   );
-//                 } else {
-//                   setAnnouncement(
-//                     dataOprec.rejectMessage.concat(
-//                       `<a target='_blank' href='${res.data.link_transparansi}' class='font-bold underline text-blue-900'>Klik di sini</a> untuk melihat transparansi nilai kamu!`
-//                     )
-//                   );
-//                 }
-//               })
-//               .catch((err) => {
-//                 setAnnouncement([
-//                   "Waduh",
-//                   "Kamu kan gak daftar...",
-//                   "Kok ngecek pengumuman :(",
-//                 ]);
-//               });
-//           } 
+else if (dataOprec.id === "2025-OprecStaffAhli") {
+            fetch(
+              `https://transparansi-grandrec.vercel.app/transparansi/${getUserData.nim}`,
+              {
+                method: "GET",
+              }
+            )
+              .then((reply) => {
+                if (reply.status !== 200) throw Error;
+                return reply.json();
+              })
+              .then((res) => {
+                if (reply.success === true) {
+                  setAnnouncement(
+                    dataOprec.acceptMessage.concat(
+                      ``
+                    )
+                  );
+                } else {
+                  setAnnouncement(
+                    dataOprec.rejectMessage.concat(
+                      `<a target='_blank' href='${res.data.link_transparansi}' class='font-bold underline text-blue-300'>Klik di sini</a> untuk melihat transparansi nilai kamu!`
+                    )
+                  );
+                }
+              })
+              .catch((err) => {
+                setAnnouncement([
+                  "Waduh",
+                  "Kamu kan gak daftar...",
+                  "Kok ngecek pengumuman :(",
+                ]);
+              });
+          } 
 else {
             if (reply.success === true) {
               setAnnouncement(dataOprec.acceptMessage);
