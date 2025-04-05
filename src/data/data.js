@@ -458,12 +458,15 @@ export const oprecInfo = [
           description:
             "2. Peserta membaca panduan Alur Pendaftaran Open Tender di",
           titleLink: "Buku panduan OPTEND25",
-          link: "https://drive.google.com/drive/folders/118MsgGBBhXZ-RXFMfw24UA3icc9lyY7q?usp=sharing",
+          link: "https://drive.google.com/drive/folders/1COTq1aBABEM-2ECGiGWeG67cDnjA2ghY?usp=drive_link",
         },
         {
           description:
             "3. Peserta mengunduh dan mengisi berkas pendaftaran (dalam bentuk soft file).",
+          titleLink: "Berkas pendaftaran",
+          link: "https://drive.google.com/drive/folders/118MsgGBBhXZ-RXFMfw24UA3icc9lyY7q?usp=sharing",
         },
+
         {
           description:
             "4. Peserta mengunggah berkas pendaftaran ke dalam Google Drive pribadi (akses link folder Google Drive wajib public/shareable).",
@@ -559,7 +562,7 @@ export const oprecInfo = [
       },
       afterMessage: [
         "Terima kasih!",
-        "Selamat kamu telah berhasil terdaftar sebagai calon peserta Ketua Pelaksana PKKMB & SA 2025🥰",
+        "Selamat kamu telah berhasil terdaftar sebagai calon Ketua Pelaksana PKKMB & SA 2025🥰",
       ],
       closedMessage: [
         "Maaf!",
@@ -747,7 +750,7 @@ export const oprecInfo = [
           },
           afterMessage: [
             "Terima kasih!",
-            "Selamat kamu telah berhasil terdaftar sebagai calon peserta Ketua Pelaksana Hology 2025 🥰",
+            "Selamat kamu telah berhasil terdaftar sebagai calon Ketua Pelaksana HOLOGY 8.0 2025 🥰",
           ],
           closedMessage: [
             "Maaf!",
