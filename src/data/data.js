@@ -652,11 +652,13 @@ export const oprecInfo = [
               description:
                 "2. Pendaftar membuka dan membaca panduan alur pendaftaran open tender (gunakan akun UB).",
               titleLink: "Panduan alur pendaftaran",
-              link: "https://drive.google.com/drive/folders/1845BrgoMZaP9ESo1hIZTzd2msEhHEt1M?usp=sharing",
+              link: "https://drive.google.com/drive/folders/1pKKwywdq5YiM7aNlv5x_oYv2oSU6d5MY?usp=sharing",
             },
             {
               description:
                 "3. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan.",
+              titleLink: "Berkas pendaftaran",
+              link: "https://drive.google.com/drive/folders/1845BrgoMZaP9ESo1hIZTzd2msEhHEt1M?usp=sharing",
             },
             {
               description:
