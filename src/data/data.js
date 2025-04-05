@@ -463,7 +463,7 @@ export const oprecInfo = [
         {
           description:
             "3. Peserta mengunduh dan mengisi berkas pendaftaran (dalam bentuk soft file).",
-          titleLink: "Berkas pendaftaran",
+          titleLink: "Berkas Pendaftaran",
           link: "https://drive.google.com/drive/folders/118MsgGBBhXZ-RXFMfw24UA3icc9lyY7q?usp=sharing",
         },
 
@@ -590,7 +590,7 @@ export const oprecInfo = [
   */
   {
           id: "2025-OpenTenderKetuaPelaksanaHOLOGY", // id oprec formatnya tahun-oprec
-          name: "OPEN TENDER KETUA PELAKSANA HOLOGY 8.0 2025", // nama buat di tentang
+          name: "OPEN TENDER KETUA PELAKSANA HOLOGY 8.0", // nama buat di tentang
           title: [
             "Open Tender Ketua Pelaksana", // line 1
             "Hology 8.0", // line 2
@@ -607,16 +607,12 @@ export const oprecInfo = [
           extends: false, //Timeline Extends atau tidak
           timeline: [
             {
-              date: "2 April 2025",
-              description: "Coming Soon",
-            },
-            {
               date: "7 - 10 April 2025",
               description: "Open Tender",
             },
             {
               date: "10 April 2025",
-              description: "Closer Registration",
+              description: "Close Registration",
             },
             {
               date: "8 - 13 April 2025",
@@ -651,13 +647,11 @@ export const oprecInfo = [
             {
               description:
                 "2. Pendaftar membuka dan membaca panduan alur pendaftaran open tender (gunakan akun UB).",
-              titleLink: "Panduan alur pendaftaran",
-              link: "https://drive.google.com/drive/folders/1pKKwywdq5YiM7aNlv5x_oYv2oSU6d5MY?usp=sharing",
             },
             {
               description:
                 "3. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan.",
-              titleLink: "Berkas pendaftaran",
+              titleLink: "Template Berkas Pendaftaran",
               link: "https://drive.google.com/drive/folders/1845BrgoMZaP9ESo1hIZTzd2msEhHEt1M?usp=sharing",
             },
             {
@@ -752,7 +746,7 @@ export const oprecInfo = [
           },
           afterMessage: [
             "Terima kasih!",
-            "Selamat kamu telah berhasil terdaftar sebagai calon Ketua Pelaksana HOLOGY 8.0 2025 🥰",
+            "SELAMAT KAMU TELAH BERHASIL TERDAFTAR SEBAGAI CALON KETUA PELAKSANA HOLOGY 8.0 🤩🥳",
           ],
           closedMessage: [
             "Maaf!",
@@ -800,16 +794,12 @@ export const oprecInfo = [
           extends: false, //Timeline Extends atau tidak
           timeline: [
             {
-              date: "2 April 2025",
-              description: "Coming Soon",
-            },
-            {
               date: "7 - 10 April 2025",
               description: "Open Tender",
             },
             {
               date: "10 April 2025",
-              description: "Closer Registration",
+              description: "Close Registration",
             },
             {
               date: "8 - 13 April 2025",
@@ -843,13 +833,13 @@ export const oprecInfo = [
             },
             {
               description:
-                "2. Pendaftar membuka dan membaca panduan alur pendaftaran open tender (gunakan akun UB).",
-              titleLink: "Panduan alur pendaftaran",
-              link: "https://drive.google.com/drive/folders/1iDkD9ymuImjZSXJ9CbLmESqs302DO77V?usp=drive_link",
+                "2. Pendaftar membuka dan membaca panduan alur pendaftaran open tender",
             },
             {
               description:
-                "3. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan.",
+                "3. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (gunakan akun UB).",
+              titleLink: "Template Berkas Pendaftaran",
+              link: "https://drive.google.com/drive/folders/1iDkD9ymuImjZSXJ9CbLmESqs302DO77V?usp=drive_link",
             },
             {
               description:
