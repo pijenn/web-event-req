@@ -393,11 +393,10 @@ export const oprecInfo = [
   },
 
     
-  // Oprec KETUPEL PKKMB & SA. 📌📌
+  // Oprec KETUPEL PKKMB & SA. ✅✅
   /*
   Catatan:
   */
-    
   {
       id: "2025-OpenTenderKetuaPelaksanaPKKMB&SA", // id oprec formatnya tahun-oprec
       name: "OPEN TENDER KETUA PELAKSANA PKKMB & SA 2025", // nama buat di tentang
@@ -459,7 +458,7 @@ export const oprecInfo = [
           description:
             "2. Peserta membaca panduan Alur Pendaftaran Open Tender di",
           titleLink: "Buku panduan OPTEND25",
-          link: "https://clips.id/BukuPanduanOPTEND25",
+          link: "https://drive.google.com/drive/folders/118MsgGBBhXZ-RXFMfw24UA3icc9lyY7q?usp=sharing",
         },
         {
           description:
@@ -582,12 +581,10 @@ export const oprecInfo = [
   },
 
 
-
-  // Hology 8.0 📌📌
+  // Hology 8.0 ✅✅
   /*
   Catatan: 
   */
-
   {
           id: "2025-OpenTenderKetuaPelaksanaHOLOGY", // id oprec formatnya tahun-oprec
           name: "OPEN TENDER KETUA PELAKSANA HOLOGY 8.0 2025", // nama buat di tentang
@@ -774,11 +771,11 @@ export const oprecInfo = [
           ],
   },
 
-  // ARTROPOLIS 2025📌📌
+  
+  // ARTROPOLIS 2025 ✅✅
   /*
   Catatan: 
   */
-
   {
           id: "2025-OpenTenderKetuaPelaksanaARTROPOLIS", // id oprec formatnya tahun-oprec
           name: "OPEN TENDER KETUA PELAKSANA ARTROPOLIS 2025", // nama buat di tentang
