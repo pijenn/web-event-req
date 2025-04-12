@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LOGO_BEM =
   "https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg";
   // "https://res.cloudinary.com/dnnznx7sj/image/upload/v1738926431/bwrve3haa0ys0ih0vpae.png";
@@ -410,7 +412,7 @@ export const oprecInfo = [
       logo: LOGO_BEM, // gambar logo di home, login, dan robot image
       landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1743056136/urkoowhdkpnbmoehw1qc.jpg`,
       openDate: new Date("2025-03-11T11:00:00.999+07:00"), //aslinya 11 april
-      closeDate: new Date("2025-04-15T23:59:00.999+07:00"),
+      closeDate: new Date("2025-04-17T23:59:00.999+07:00"),
       announceDate: new Date("2025-04-22T19:00:00.999+07:00"),
       onlyFor: [23, 24], // Angkatan berapa yg diterima
       extends: false, //Timeline Extends atau tidak
@@ -601,8 +603,8 @@ export const oprecInfo = [
           logo: LOGO_BEM, // gambar logo di home, login, dan robot image
           landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1743129634/j4t6zcofsk8bbenjio6p.jpg`,
           openDate: new Date("2025-03-11T15:00:00.999+07:00"), //ini nanti diganti 7 April
-          closeDate: new Date("2025-04-10T23:59:00.999+07:00"),
-          announceDate: new Date("2025-04-14T19:00:00.999+07:00"),
+          closeDate: new Date("2025-04-12T23:59:00.999+07:00"),
+          announceDate: new Date("2025-04-14T16:00:00.999+07:00"),
           onlyFor: [23, 24], // Angkatan berapa yg diterima
           extends: false, //Timeline Extends atau tidak
           timeline: [
@@ -611,8 +613,12 @@ export const oprecInfo = [
               description: "Open Tender",
             },
             {
-              date: "10 April 2025",
-              description: "Close Registration",
+             date: "7 - 12 April 2025",
+             description: "Extend Registration",
+            },
+            {
+             date: "12 April 2025",
+             description: "Close Registration",
             },
             {
               date: "8 - 13 April 2025",
@@ -620,14 +626,6 @@ export const oprecInfo = [
             },
       
             // nanti yang close diatas ini aja yang dikomen ketika extend
-            // {
-            //  date: "7 - 12 April 2025",
-            //  description: "Extend Registration",
-            // },
-            // {
-            //  date: "14 April 2025",
-            //  description: "Close Registration",
-            // },
             {
               date: "14 April 2025",
               description: "Pengumuman 📢",
@@ -788,7 +786,7 @@ export const oprecInfo = [
           logo: LOGO_BEM, // gambar logo di home, login, dan robot image
           landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1743515487/skm95wtszqfdpvbqsea7.jpg`,
           openDate: new Date("2025-03-11T15:00:00.999+07:00"), //ini nanti diganti 7 April
-          closeDate: new Date("2025-04-10T23:59:00.999+07:00"),
+          closeDate: new Date("2025-04-12T23:59:00.999+07:00"),
           announceDate: new Date("2025-04-14T19:00:00.999+07:00"),
           onlyFor: [23, 24], // Angkatan berapa yg diterima
           extends: false, //Timeline Extends atau tidak
@@ -797,24 +795,23 @@ export const oprecInfo = [
               date: "7 - 10 April 2025",
               description: "Open Tender",
             },
+            // {
+            //   date: "10 April 2025",
+            //   description: "Close Registration",
+            // },
             {
-              date: "10 April 2025",
-              description: "Close Registration",
+             date: "7 - 12 April 2025",
+             description: "Extend Registration",
+            },
+            {
+             date: "12 April 2025",
+             description: "Close Registration",
             },
             {
               date: "8 - 13 April 2025",
               description: "Fit and Proper Test",
             },
-      
-            // nanti yang close diatas ini aja yang dikomen ketika extend
-            // {
-            //  date: "7 - 12 April 2025",
-            //  description: "Extend Registration",
-            // },
-            // {
-            //  date: "14 April 2025",
-            //  description: "Close Registration",
-            // },
+           // nanti yang close diatas ini aja yang dikomen ketika extend
             {
               date: "14 April 2025",
               description: "Pengumuman 📢",
@@ -957,6 +954,167 @@ export const oprecInfo = [
             // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
           ],
   },
+  
+  // FILKOM GOES TO SCHOOL 2025 📌📌
+  /*
+  Catatan: 
+  */
+  {
+          id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
+          name: "FILKOM GOES TO SCHOOL 2025", // nama buat di tentang
+          title: [
+            "Open Recruitment Volunteer", // line 1
+            "FILKOM GOES TO SCHOOL", // line 2
+          ],
+          description: [
+            "FILKOM Goes To School merupakan kegiatan tahunan yang diadakan BEM FILKOM UB dengan dukungan langsung dari pihak Kemahasiswaan. Bertujuan untuk memperkenalkan dan mempromosikan Fakultas Ilmu Komputer (FILKOM) Universitas Brawijaya, kepada Siswa/Siswi SMA/MA/SMK sederajat khususnya kelas 12 sebagai target yang akan melanjutkan pendidikan ke perguruan tinggi."
+          ],
+          logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+          landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1744296381/pzztkppanuuw7akpcgfm.jpg`,
+          openDate: new Date("2025-04-10T15:00:01.999+07:00"), //ini nanti diganti 7 April
+          closeDate: new Date("2025-04-23T23:59:00.999+07:00"),
+          announceDate: new Date("2025-05-01T19:00:00.999+07:00"),
+          onlyFor: [24], // Angkatan berapa yg diterima
+          extends: false, //Timeline Extends atau tidak
+          timeline: [
+            {
+              date: "18 - 20 April 2025",
+              description: "Open recruitment",
+            },
+            {
+              date: "20 April 2025",
+              description: "Close egistration",
+            },
+            {
+              date: "21 - 26 April 2025",
+              description: "Screening",
+            },
+      
+            // nanti yang close diatas ini aja yang dikomen ketika extend
+            // {
+            //  date: "21 - 23 April 2025",
+            //  description: "Extend Registration",
+            // },
+            // {
+            //  date: "23 April 2025",
+            //  description: "Close Registration",
+            // },
+            {
+              date: "1 Mei 2025",
+              description: "Announcement📢",
+            },
+          ], //semisal extends timelinenya diubah juga
+      
+          quotes:
+            "Masa depan dimulai hari ini, dari sekolah menuju dunia digital bersama FILKOM!", //kalo gaada quotes bisa dikosongkan
+          options: [
+            "Volunteer Individu",
+            "Volunteer Kelompok"
+          ], //pilihan divisi                                     
+          formatDrive: "Nama Lengkap_Domisili_Individu/NamaAnggotaKelompok", //format google drive yang tampil di form pendaftaran
+          
+          //alur pendaftaran
 
+          //alur untuk individu
+          alur: [
+            {
+              description:
+                "1. Pendaftar membuka laman web portal pendaftaran Volunteer FGTS 2025",
+            },
+            {
+              description:
+                "2. Pendaftar diwajibkan membaca guidebook open recruitment Volunteer FGTS 2025",
+              titleLink: "Guidebook Volunteer FGTS",
+              link: "https://drive.google.com/drive/folders/1GSOhY3978ZDzXnjIE1fCDIZIhbCweLDd?usp=sharing",
+            },
+            {
+              description:
+                "3. Pendaftar melengkapi dokumen administrasi open recruitment sesuai dengan ketentuan",
+            },
+            {
+              description:
+                "4. Pendaftar mengunggah dokumen administrasi ke folder Google Drive dengan format: (Nama Lengkap_Domisili_Individu) atau (Nama Lengkap_Domisili_Nama Anggota 1, Nama Anggota 2, dst)",
+            },
+            {
+              description:
+                "5. Pendaftar mengisi formulir pendaftaran secara online dan menyertakan link folder Google Drive",
+            },
+            {
+              description:
+                "6. Jika berkelompok, setiap anggota kelompok tetap diwajibkan untuk melakukan perintah nomor 5 secara individu",
+            },
+            {
+              description:
+                "6. Pendaftar akan menerima pesan konfirmasi secara personal melalui LINE oleh panitia perihal informasi tahap screening",
+            },
+          ], 
+          formFields: [
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "nama", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Siapa nama lengkapmu?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sulthon Ihsan ",
+            },
+            {
+              name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
+              placeholder: "cth: Audrey",
+            }, 
+            {
+              name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Program Studimu apa?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sistem Informasi",
+            },
+            {
+              name: "idline", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Boleh dong diketik ID LINE mu", //pertanyaan yang ditampilin
+              placeholder: "cth: @itsgacorr",
+            },
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+              questions:
+                "Terakhir, Link berkas (pastikan sudah diatur ke “everyone can view”😉)", //pertanyaan yang ditampilin
+              placeholder: "cth: https://drive.google.com/xxxxx",
+              pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+            },
+          ], //isi dari form field chat
+          api: {
+            auth: "https://bemfilkom.ddns.net:8443/",
+            check: "https://bem-rest.vercel.app/check/2025/OpenVolunteerFGTS", // Check if registrant is already registered
+            register:
+              "https://bem-rest.vercel.app/register/2025/OpenVolunteerFGTS", // Input registrant data
+            announce:
+              "https://bem-rest.vercel.app/announce/2025/OpenVolunteerFGTS", // Check registrant's acceptance status
+          },
+          afterMessage: [
+            "Terima kasih!",
+            "Selamat kamu telah berhasil terdaftar sebagai calon Volunteer Filkom Goes To School 2025🤩🎉",
+          ],
+          closedMessage: [
+            "Maaf!",
+            "Pendaftaran sudah ditutup 🙏",
+            "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+          ],
+          acceptMessage: [
+            "Selamat!!!", // !!JANGAN DIGANTI
+            "Selamat Kamu Diterima Menjadi Bagian Volunteer FGTS 2025!!!!!!",
+            "Silahkan Gabung Grup dari link di bawah ini:",
+            "https://line.me/R/ti/g/rTg8jwgUYm"
+          ],
+          rejectMessage: [
+            "Mohon maaf", // !!JANGAN DIGANTI
+            "Mohon Maaf Kamu Belum Berkesempatan untuk Menjadi Volunteer FGTS 2025😔🙏 Tetap Semangat Yahhhh!!!😊"
+            // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
+          ],
+  },
   
 ];
