@@ -972,35 +972,35 @@ export const oprecInfo = [
           logo: LOGO_BEM, // gambar logo di home, login, dan robot image
           landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1744296381/pzztkppanuuw7akpcgfm.jpg`,
           openDate: new Date("2025-04-10T15:00:01.999+07:00"), //ini nanti diganti 7 April
-          closeDate: new Date("2025-04-23T23:59:00.999+07:00"),
-          announceDate: new Date("2025-05-01T19:00:00.999+07:00"),
+          closeDate: new Date("2025-04-27T23:59:00.999+07:00"),
+          announceDate: new Date("2025-05-05T19:15:00.999+07:00"),
           onlyFor: [24], // Angkatan berapa yg diterima
           extends: false, //Timeline Extends atau tidak
           timeline: [
             {
-              date: "18 - 20 April 2025",
+              date: "25 - 27 April 2025",
               description: "Open recruitment",
             },
             {
-              date: "20 April 2025",
+              date: "27 April 2025",
               description: "Close egistration",
             },
             {
-              date: "21 - 26 April 2025",
+              date: "28 April - 2 Mei 2025",
               description: "Screening",
             },
       
             // nanti yang close diatas ini aja yang dikomen ketika extend
             // {
-            //  date: "21 - 23 April 2025",
+            //  date: "28 - 29 April 2025",
             //  description: "Extend Registration",
             // },
             // {
-            //  date: "23 April 2025",
+            //  date: "29 April 2025",
             //  description: "Close Registration",
             // },
             {
-              date: "1 Mei 2025",
+              date: "5 Mei 2025",
               description: "Announcement📢",
             },
           ], //semisal extends timelinenya diubah juga
