@@ -1116,5 +1116,193 @@ export const oprecInfo = [
             // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
           ],
   },
+
+  // FILKOM GOES TO SCHOOL 2025 📌📌
+  /*
+  Catatan: 
+  */
+  {
+          id: "2025-VolunteerENVIROACT", // id oprec formatnya tahun-oprec
+          name: "ENVIROACT 2025", // nama buat di tentang
+          title: [
+            "Open Recruitment Volunteer", // line 1
+            "Environmental Awareness and Conservation Together", // line 2
+          ],
+          description: [
+            "ENVIROACT(Environmental Awareness and Conservation Together) adalah sebuah gerakan yang dilakukan oleh mahasiswa FILKOM sebagai bentuk kepedulian terhadap kebersihan dan isu-isu lingkungan. "
+          ],
+          logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+          landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1744631072/bwpuvrkrtzprtvuvztme.jpg`,
+          openDate: new Date("2025-03-21T15:13:00.999+07:00"), //ini nanti diganti 7 April
+          closeDate: new Date("2025-04-25T23:59:00.999+07:00"),
+          announceDate: new Date("2025-04-30T18:00:00.999+07:00"),
+          onlyFor: [24], // Angkatan berapa yg diterima
+          extends: false, //Timeline Extends atau tidak
+          timeline: [
+            {
+              date: "21 - 25 April 2025",
+              description: "Open recruitment",
+            },
+            {
+              date: "25 April 2025",
+              description: "Close egistration",
+            },
+            {
+              date: "22 April - 25 April 2025",
+              description: "Screening",
+            },
+      
+            // nanti yang close diatas ini aja yang dikomen ketika extend
+            // {
+            //  date: "26 - 28 April 2025",
+            //  description: "Extend Registration",
+            // },
+            // {
+            //  date: "28 April 2025",
+            //  description: "Close Registration",
+            // },
+            //  date: "27 - 28 April 2025",
+            //  description: "Screening",
+            // },
+            {
+              date: "30 April 2025",
+              description: "Announcement📢",
+            },
+          ], //semisal extends timelinenya diubah juga
+      
+          quotes:
+            "Ditolak sekali, mencoba beribu kali. gagal sesekali, sukses pasti menanti. ", //kalo gaada quotes bisa dikosongkan
+          options: [
+            "Acara",
+            "PDD",
+            "Humas",
+            "Perlengkapan"
+          ], //pilihan divisi                                     
+          formatDrive: "Nama Lengkap_Domisili_Individu/NamaAnggotaKelompok", //format google drive yang tampil di form pendaftaran
+          
+          //alur pendaftaran
+
+          //alur untuk individu
+          alur: [
+            {
+              description:
+                "1. Peserta diwajibkan mengikuti akun Instagram resmi @filkom_enviroact dan @bemfilkomub.",
+            },
+            {
+              description:
+                "2. Peserta membuka link berkas pendaftaran yang telah disediakan oleh SGE FILKOM.",
+              titleLink: "Guidebook ENVIROACT",
+              link: "https://drive.google.com/drive/folders/1ZYLDUnamjB-EONWXrqPuP6OLj1q3Zsv2?usp=sharing",
+            },
+            {
+              description:
+                "3. Unduh dan lengkapi berkas pendaftaran sesuai ketentuan.",
+            },
+            {
+              description:
+                "4. Peserta diminta untuk me-repost poster Open Recruitment melalui Instagram Story serta dan men-tag akun @filkom_enviroact dan @bemfilkomub.",
+            },
+            {
+              description:
+                "5. Bacalah guidebook Open Recruitment secara menyeluruh sebagai standar dalam proses seleksi.",
+            },
+            {
+              description:
+                "6. Unggah seluruh berkas yang telah dilengkapi ke Google Drive pribadi, dengan pengaturan akses public atau shareable.",
+            },
+            {
+              description:
+                "7. Isi biodata diri melalui SGE FILKOM Website yang tersedia, serta lampirkan tautan Google Drive berisi berkas pendaftaran.",
+            },
+            {
+              description:
+                "8. Informasi terkait jadwal wawancara akan disampaikan oleh panitia melalui aplikasi LINE."
+            },
+          ], 
+          formFields: [
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "nama", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Siapa nama lengkapmu?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sulthon Ihsan ",
+            },
+            {
+              name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
+              placeholder: "cth: Audrey",
+            }, 
+            {
+              name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Program Studimu apa?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sistem Informasi",
+            },
+            {
+              name: "no_wa", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Boleh minta nomor wa mu?", //pertanyaan yang ditampilin
+              placeholder: "cth: 08123456789",
+            },
+            {
+              name: "idline", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Boleh dong diketik ID LINE mu", //pertanyaan yang ditampilin
+              placeholder: "cth: @itsgacorr",
+            },
+            {
+              name: "alamat_asl", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alamat asalmu dimana?", //pertanyaan yang ditampilin
+              placeholder: "cth: Jl. Candi no. 10, Bali ",
+            },
+            {
+              name: "alamat_mlg", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alamat kamu di Malang?", //pertanyaan yang ditampilin
+              placeholder: "cth: Jl. Veteram no. 10",
+            },
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+              questions:
+                "Terakhir, Link berkas (pastikan sudah diatur ke “everyone can view”😉)", //pertanyaan yang ditampilin
+              placeholder: "cth: https://drive.google.com/xxxxx",
+              pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+            },
+          ], //isi dari form field chat
+          api: {
+            auth: "https://bemfilkom.ddns.net:8443/",
+            check: "https://bem-rest.vercel.app/check/2025/OpenVolunteerENVIROACT", // Check if registrant is already registered
+            register:
+              "https://bem-rest.vercel.app/register/2025/OpenVolunteerENVIROACT", // Input registrant data
+            announce:
+              "https://bem-rest.vercel.app/announce/2025/OpenVolunteerENVIROACT", // Check registrant's acceptance status
+          },
+          afterMessage: [
+            "Terima kasih!",
+            "Selamat kamu telah berhasil terdaftar sebagai calon Volunteer Filkom Goes To School 2025🤩🎉",
+          ],
+          closedMessage: [
+            "Maaf!",
+            "Pendaftaran sudah ditutup 🙏",
+            "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+          ],
+          acceptMessage: [
+            "Selamat!!!", // !!JANGAN DIGANTI
+            "🌱SELAMATTT KAMU DITERIMAA 🌱",
+            "Kami ucapkan selamat atas lolos nya kamu untuk menjadi staff ENVIROACT, Semoga kamu bisa berdedikasi dan bertanggung jawab dalam mengemban tugas yang akan diberikan nantinya dan kami juga berharap kamu juga bisa mendapatkan dampak yang baik karena telah menjadi staff ENVIROACT.",
+            "Silakan gabung kedalam grup whatsapp berikut: ",
+            "https://chat.whatsapp.com/LIa6dNcqPr8IAbDYJgKqmz"
+          ],
+          rejectMessage: [
+            "Mohon maaf", // !!JANGAN DIGANTI
+            "🙏MOHON MAAF🙏",
+            "Kamu belum bisa menjadi staff ENVIROACT tetapi jangan berkecil hati dan selalu semangat karena masi banyak kesempatan di luar sana"
+            // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
+          ],
+  },
   
 ];
