@@ -1117,7 +1117,7 @@ export const oprecInfo = [
           ],
   },
 
-  // FILKOM GOES TO SCHOOL 2025 📌📌
+  // ENVIROACT 2025 📌📌
   /*
   Catatan: 
   */
