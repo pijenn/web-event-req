@@ -955,9 +955,9 @@ export const oprecInfo = [
           ],
   },
   
-  // FILKOM GOES TO SCHOOL 2025 📌📌
+  // FILKOM GOES TO SCHOOL 2025 ✅✅
   /*
-  Catatan: 
+  Catatan:
   */
   {
           id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
@@ -983,7 +983,7 @@ export const oprecInfo = [
             },
             {
               date: "27 April 2025",
-              description: "Close egistration",
+              description: "Close Registration",
             },
             {
               date: "28 April - 2 Mei 2025",
@@ -1029,7 +1029,7 @@ export const oprecInfo = [
             },
             {
               description:
-                "3. Pendaftar melengkapi dokumen administrasi open recruitment sesuai dengan ketentuan",
+                "3. Pendaftar melengkapi dokumen administrasi open recruitment sesuai ketentuan.",
             },
             {
               description:
@@ -1117,9 +1117,9 @@ export const oprecInfo = [
           ],
   },
 
-  // ENVIROACT 2025 📌📌
+  // ENVIROACT 2025 ✅✅
   /*
-  Catatan: 
+  Catatan:
   */
   {
           id: "2025-VolunteerENVIROACT", // id oprec formatnya tahun-oprec
@@ -1171,7 +1171,7 @@ export const oprecInfo = [
           ], //semisal extends timelinenya diubah juga
       
           quotes:
-            "Ditolak sekali, mencoba beribu kali. gagal sesekali, sukses pasti menanti. ", //kalo gaada quotes bisa dikosongkan
+            "Ditolak sekali, mencoba beribu kali. gagal sesekali, sukses pasti menanti.", //kalo gaada quotes bisa dikosongkan
           options: [
             "Acara",
             "PDD",
@@ -1196,7 +1196,7 @@ export const oprecInfo = [
             },
             {
               description:
-                "3. Unduh dan lengkapi berkas pendaftaran sesuai ketentuan.",
+                "3. Unduh dan lengkapi berkas pendaftaran sesuai dengan format (EV_PIL1_PIL2_NamaLengkap). (contoh: EV_Acara_PDD_Zanita Alya Khairunnisa)",
             },
             {
               description:
@@ -1283,7 +1283,7 @@ export const oprecInfo = [
           },
           afterMessage: [
             "Terima kasih!",
-            "Selamat kamu telah berhasil terdaftar sebagai calon Volunteer Filkom Goes To School 2025🤩🎉",
+            "Selamat kamu telah berhasil terdaftar sebagai calon staff EnviroACT 2025🤩",
           ],
           closedMessage: [
             "Maaf!",
