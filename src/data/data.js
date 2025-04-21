@@ -1417,7 +1417,7 @@ export const oprecInfo = [
             {
               name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
               questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
-              placeholder: "cth: Audrey",
+              placeholder: "cth: Ihsan",
             }, 
             {
               name: "prodi", //name nya disesuain sama nama kolom yang di supabase
