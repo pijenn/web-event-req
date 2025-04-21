@@ -1305,7 +1305,7 @@ export const oprecInfo = [
           ],
   },
 
-  // SCHOTIVAL k
+  // SCHOTIVAL 
   /*
   Catatan:
   1. Alur pendaftaran belum jelas. Masih konfirmasi
