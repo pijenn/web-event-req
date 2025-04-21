@@ -585,7 +585,6 @@ export const oprecInfo = [
       ],
   },
 
-
   // Hology 8.0 ✅✅
   /*
   Catatan: 
@@ -760,15 +759,14 @@ export const oprecInfo = [
           ],
           rejectMessage: [
             "Mohon maaf", // !!JANGAN DIGANTI
-            "❌ MOHON MAAF, KAMU BELUM TERPILIH 😢\n",
-            "Mohon maaf, Anda belum terpilih menjadi Ketua Pelaksana HOLOGY 8.0\n",
-            "Jangan berkecil hati! Masih banyak peluang lain untuk berkembang dan berkontribusi. Untuk info selanjutnya, panitia akan menghubungi Anda melalui WhatsApp. Tetap semangat dan terus berkarya! 💪🔥\n",
-            "Salam hangat, Talent Growth 2025",
+            "❌ MOHON MAAF, KAMU BELUM TERPILIH 😢",
+            "Mohon maaf, Anda belum terpilih menjadi Ketua Pelaksana HOLOGY 8.0",
+            "Jangan berkecil hati! Masih banyak peluang lain untuk berkembang dan berkontribusi. Untuk info selanjutnya, panitia akan menghubungi Anda melalui WhatsApp. Tetap semangat dan terus berkarya! 💪🔥",
+            "Salam hangat, Talent Growth 2025"
             // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
           ],
   },
 
-  
   // ARTROPOLIS 2025 ✅✅
   /*
   Catatan: 
@@ -945,7 +943,7 @@ export const oprecInfo = [
             "Sekali lagi, selamat dan semangat menjalankan amanah ini! 🚀💪✨5",
           ],
           rejectMessage: [
-            "Mohon maaf", // !!JANGAN DIGANTI
+            "Mohon MAAF", // !!JANGAN DIGANTI
             "TERIMA KASIH ATAS PARTISIPASIMU!\n",
             "Kami sangat mengapresiasi antusiasme dan dedikasimu dalam proses seleksi Ketua Pelaksana Artropolis 2025. Namun, mohon maaf, kali ini kamu belum terpilih untuk posisi tersebut.\n",
             "Jangan berkecil hati! Masih banyak kesempatan lain untuk berkembang dan berkontribusi. Kami percaya potensimu akan bersinar di kesempatan berikutnya! 🌟✨\n",
@@ -955,9 +953,10 @@ export const oprecInfo = [
           ],
   },
   
-  // FILKOM GOES TO SCHOOL 2025 ✅✅
+  // FILKOM GOES TO SCHOOL 2025 📌📌
   /*
   Catatan:
+  1. Extend 28-29 April 2025
   */
   {
           id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
@@ -1117,9 +1116,10 @@ export const oprecInfo = [
           ],
   },
 
-  // ENVIROACT 2025 ✅✅
+  // ENVIROACT 2025 📌📌
   /*
   Catatan:
+  1. Extend 26 - 28 April 2025
   */
   {
           id: "2025-VolunteerENVIROACT", // id oprec formatnya tahun-oprec
@@ -1145,7 +1145,7 @@ export const oprecInfo = [
             },
             {
               date: "25 April 2025",
-              description: "Close egistration",
+              description: "Close Registration",
             },
             {
               date: "22 April - 25 April 2025",
@@ -1301,6 +1301,238 @@ export const oprecInfo = [
             "Mohon maaf", // !!JANGAN DIGANTI
             "🙏MOHON MAAF🙏",
             "Kamu belum bisa menjadi staff ENVIROACT tetapi jangan berkecil hati dan selalu semangat karena masi banyak kesempatan di luar sana"
+            // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
+          ],
+  },
+
+  // SCHOTIVAL k
+  /*
+  Catatan:
+  1. Alur pendaftaran belum jelas. Masih konfirmasi
+  2. Extend 1 - 3 Mei 2025
+  */
+  {
+          id: "2025-SCHOTIVAL", // id oprec formatnya tahun-oprec
+          name: "SCHOTIVAL 2025", // nama buat di tentang
+          title: [
+            "Open Recruitment Staff SCHOTIVAL 2025", // line 1
+          ],
+          description: [
+            "SCHOTIVAL (Scholarship Festival) 2025 merupakan sebuah rangkaian acara sebagai wadah bagi mahasiswa khususnya mahasiswa Universitas Brawijaya dalam mendapatkan informasi seputar beasiswa. Yang berisikan rangkaian talkshow dan expo beasiswa yang akan menghadirkan pembicara untuk berbagi motivasi serta tips and trik memperoleh beasiswa juga mengadakan expo untuk bisa sharing langsung dengan awardee beasiswa tersebut."
+          ],
+          logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+          landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745165340/t8r3evsu0rzb8qnog6jr.jpg`,
+          openDate: new Date("2025-03-25T09:00:00.999+07:00"), //ini nanti diganti jadi April
+          closeDate: new Date("2025-04-30T23:59:00.999+07:00"),
+          announceDate: new Date("2025-05-06T12:00:00.999+07:00"),
+          onlyFor: [23, 24], // Angkatan berapa yg diterima
+          extends: false, //Timeline Extends atau tidak
+          timeline: [
+            {
+              date: "25 - 30 April 2025",
+              description: "Open Recruitment",
+            },
+            {
+              date: "30 April 2025",
+              description: "Close Registration",
+            },
+            {
+              date: "26 April - 3 Mei 2025",
+              description: "Screening",
+            },
+      
+            // nanti yang close diatas ini aja yang dikomen ketika extend
+            // {
+            //  date: "1 - 3 Mei 2025",
+            //  description: "Extend Registration",
+            // },
+            // {
+            //  date: "3 Mei 2025", pukul 23.59
+            //  description: "Close Registration",
+            // },
+            //  date: "2 - 3 Mei 2025",
+            //  description: "Screening",
+            // },
+            {
+              date: "6 Mei 2025",
+              description: "Announcement📢",
+            },
+          ], //semisal extends timelinenya diubah juga
+      
+          quotes:
+            "Elevate Your Journey, Empower Your Future.", //kalo gaada quotes bisa dikosongkan
+          options: [
+            "Event Management",
+            "Publication and Public Relation",
+            "Equipment and Logistic",
+            "Documentation and Digital Media Production",
+            "Sponsorship and Fundraising"
+          ], //pilihan divisi                                     
+          formatDrive: "Pilihan1_Pilihan2_Nama Lengkap_SCHTL ‘25", //format google drive yang tampil di form pendaftaran
+          
+          //alur pendaftaran
+
+          //alur untuk individu
+          alur: [
+            {
+              description:
+                "1. Pendaftar membuka link pendaftaran yang telah disediakan oleh SGE FILKOM (website ini).",
+            },
+            {
+              description:
+                "2. Pendaftar membaca Guidebook Open Recruitment Organizing Committee SCHOTIVAL 2025",
+              titleLink: "Guidebook SCHOTIVAL",
+              link: "https://www.canva.com/design/DAGkVW9j1KE/IVCsnIFwUxqMBJp3f-tSCg/edit?utm_content=DAGkVW9j1KE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            },
+            {
+              description:
+                "3. Pendaftar menyiapkan seluruh ketentuan dan berkas berkas yang dapat di unduh pada link berikut lalu pilih link Berkas Pendaftaran dengan Make a copy.",
+              titleLink: "Berkas Pendaftaran",
+              link: "http://linktr.ee/SCHOTIVAL2025",
+            },
+            {
+              description:
+                "4. Pendaftar mengunggah seluruh berkas kedalam Google Drive Pribadi (akses wajib public) dengan format : PIL 1_PIL 2_NAMA LENGKAP_SCHTV'25. Contoh: Event Management_Sponshorship and Fundraising_Anindhita Faiza Aulia_SCHTV'25.",
+            },
+            {
+              description:
+                "5. Khusus pendaftar yang memilih divisi DDM, wajib menyertakan portofolio hasil karya berupa desain /multimedia ke dalam folder Google Drive.",
+            },
+            {
+              description:
+                "6. Pendaftar akan diumumkan informasi mengenai screening selambat-lambatnya H+2 setelah mendaftarkan diri melalui website SGE FILKOM",
+            },
+          ], 
+          formFields: [
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "nama", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Siapa nama lengkapmu?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sulthon Ihsan ",
+            },
+            {
+              name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
+              placeholder: "cth: Audrey",
+            }, 
+            {
+              name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Program Studimu apa?", //pertanyaan yang ditampilin
+              placeholder: "cth: Sistem Informasi",
+            },
+            {
+              name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Tempat, Tanggal Lahirmu?", //pertanyaan yang ditampilin
+              placeholder: "cth: Malang, 29 Febreuari 2005",
+            },
+            {
+              name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Nomor HP kamu berapa?", //pertanyaan yang ditampilin
+              placeholder: "cth: 08991234567",
+            },
+            {
+              name: "idline", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Boleh dong diketik ID LINE mu", //pertanyaan yang ditampilin
+              placeholder: "cth: @itsgacorr",
+            },
+            {
+              name: "asal", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Silahkan masukkan alamat asalmu", //pertanyaan yang ditampilin
+              placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+            },
+            {
+              name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alamat kamu di Malang?", //pertanyaan yang ditampilin
+              placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+            },
+            {
+              name: "pil1", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Masukkan pilihan pertama kamu", //pertanyaan yang ditampilin
+              placeholder: "cth: Publication and Public Relation",
+            },
+            {
+              name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alasan kamu memilih divisi ini?", //pertanyaan yang ditampilin
+              placeholder: "cth: Karena sudah berpengalaman di bidang ini",
+            },
+            {
+              name: "pil2", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Masukkan pilihan kedua kamu", //pertanyaan yang ditampilin
+              placeholder: "cth: Event Management",
+            },
+            {
+              name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alasan kamu memilih divisi ini?", //pertanyaan yang ditampilin
+              placeholder: "cth: Ingin mencoba hal baru",
+            },
+            {
+              name: "motivasi", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Apa motivasi dan tujuan kamu mengikuti kepanitiaan SCHOTIVAL 2025?", //pertanyaan yang ditampilin
+              placeholder: "cth: Ingin menambah pengalaman dan mengasah soft skills",
+            },
+            {
+              name: "komitmen", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Jabarkan komitmen kamu jika terpilih menjadi staff SCHOTIVAL 2025?", //pertanyaan yang ditampilin
+              placeholder: "cth: Saya akan bertanggung jawab atas tugas yang diberikan",
+            },
+            {
+              name: "penilaian", //name nya disesuain sama nama kolom yang di supabase
+              questions: "Alasan anda layak menjadi staff SCHOTIVAL 2025?", //pertanyaan yang ditampilin
+              placeholder: "cth: Karena saya sudah memiliki banyak pengalaman",
+            },
+            {
+              is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+              questions:
+                "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+            },
+            {
+              name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+              questions:
+                "Terakhir, Link berkas (pastikan sudah diatur ke “everyone can view”😉)", //pertanyaan yang ditampilin
+              placeholder: "cth: https://drive.google.com/xxxxx",
+              pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+            },
+          ], //isi dari form field chat
+          api: {
+            auth: "https://bemfilkom.ddns.net:8443/",
+            check: "https://bem-rest.vercel.app/check/2025/OptendKetupelSCHOTIVAL", // Check if registrant is already registered
+            register:
+              "https://bem-rest.vercel.app/register/2025/OptendKetupelSCHOTIVAL", // Input registrant data
+            announce:
+              "https://bem-rest.vercel.app/announce/2025/OptendKetupelSCHOTIVAL", // Check registrant's acceptance status
+          },
+          afterMessage: [
+            "Terima kasih!",
+            "Selamat kamu telah berhasil terdaftar sebagai Calon Staff SCHOTIVAL 2025🤩🎉",
+          ],
+          closedMessage: [
+            "Maaf!",
+            "Pendaftaran sudah ditutup 🙏",
+            "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+          ],
+          acceptMessage: [
+            "Selamat!!!", // !!JANGAN DIGANTI
+            "🌟 SELAMAT!!! 🌟",
+            "Kamu resmi DITERIMA sebagai bagian dari SCHOTEAM! 🎉✨",
+            "Terima kasih sudah melewati proses seleksi dengan semangat dan usaha terbaikmu. Kami tahu ini bukan perjalanan yang mudah, tapi kamu berhasil membuktikan kalau kamu pantas jadi bagian dari tim ini!",
+            "Kami benar-benar nggak sabar buat kenalan lebih dekat sama kamu, dengar cerita-ceritamu, dan pastinya lihat potensi luar biasa yang kamu bawa. Di sinilah tempat kamu untuk berkembang, berkarya, dan bersinar bareng orang-orang hebat lainnya! 🚀",
+            "Akan ada banyak kegiatan seru, tantangan seru, dan momen-momen tak terlupakan menanti. So, siapkan energi terbaikmu ya!",
+            "Langsung aja gabung ke grup berikut untuk informasi lebih lanjut:",
+            "https://chat.whatsapp.com/BxTLvjiSFk33Oe1bNbDiAi",
+            "Welcome to SCHOTEAM!",
+            "Let's create something amazing, together. 💪🔥",
+          ],
+          rejectMessage: [
+            "Mohon maaf", // !!JANGAN DIGANTI
+            "Hai, terima kasih banyak ya atas partisipasimu dalam open recruitment kali ini 💫",
+            "Kami benar-benar menghargai waktu, usaha, dan semangat yang kamu tunjukkan selama proses seleksi. Namun setelah melalui pertimbangan yang matang, dengan berat hati kami sampaikan bahwa kamu belum bisa bergabung di kesempatan ini 😢",
+            "Tapi jangan patah semangat ya! Kami percaya kamu punya potensi besar! Mungkin kali ini belum waktunya, tapi bukan berarti selamanya.", 
+            "Tetap semangat berkarya, terus berkembang, dan sampai jumpa di kesempatan berikutnya! 💪✨", 
+            "#KamuHebat #SampaiJumpaLagi" 
             // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
           ],
   },
