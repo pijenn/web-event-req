@@ -79,7 +79,7 @@ const Card = ({
 
           <p className="text-sm font-light mb-4 mt-2 text-center my-2">{desc}</p>
           <Link
-          className="border border-2 border-newOrange py-1 px-8 bg-white text-newOrange rounded-full hover:text-white hover:bg-newOrange hover:border-newOrange transition duration-75 ease-in mx-auto block text-center"
+          className="border-2 border-newOrange py-1 px-8 bg-white text-newOrange rounded-full hover:text-white hover:bg-newOrange hover:border-newOrange transition duration-75 ease-in mx-auto block text-center"
           to={to}
             >
            {isAnnounced ? "Cek Pengumuman" : "Selengkapnya"}
@@ -95,6 +95,14 @@ const Main = () => {
   useEffect(() => {
     document.title = `Web Event Request SGE FILKOM 2025`;
   }, []);
+
+  const filteredOprec = currentOprec.filter(oprec => {
+    const announceDate = new Date(oprec.announceDate);
+    const fiveDaysAfterAnnounce = new Date(announceDate);
+    fiveDaysAfterAnnounce.setDate(announceDate.getDate() + 5);
+    return Date.now() <= fiveDaysAfterAnnounce.getTime();
+  });
+
   return (
     <>
       <nav
@@ -126,7 +134,7 @@ const Main = () => {
         }}
       >
         <div className="py-5 px-8 mt-3 mx-0 ">
-          {currentOprec.length > 0 ? (
+          {filteredOprec.length > 0 ? (
             <>
                 <div className="flex mt-20 justify-center mb-14">
                 <img
@@ -135,7 +143,7 @@ const Main = () => {
                 />
                 </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center mb-8">
-                {currentOprec.map((oprec, idx) => (
+                {filteredOprec.map((oprec, idx) => (
                   <Card
                     key={idx}
                     id={oprec.id.split("-")}
