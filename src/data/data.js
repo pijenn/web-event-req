@@ -974,7 +974,7 @@ export const oprecInfo = [
           closeDate: new Date("2025-04-27T23:59:00.999+07:00"),
           announceDate: new Date("2025-05-05T19:15:00.999+07:00"),
           onlyFor: [24], // Angkatan berapa yg diterima
-          extends: false, //Timeline Extends atau tidak
+          extends: true, //Timeline Extends atau tidak
           timeline: [
             {
               date: "25 - 27 April 2025",
