@@ -956,7 +956,7 @@ export const oprecInfo = [
   // FILKOM GOES TO SCHOOL 2025 📌📌
   /*
   Catatan:
-  1. Extend 28-29 April 2025
+  1. Extend 28-30 April 2025
   */
   {
           id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
@@ -971,7 +971,7 @@ export const oprecInfo = [
           logo: LOGO_BEM, // gambar logo di home, login, dan robot image
           landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1744296381/pzztkppanuuw7akpcgfm.jpg`,
           openDate: new Date("2025-04-10T15:00:01.999+07:00"), //ini nanti diganti 7 April
-          closeDate: new Date("2025-04-29T23:59:00.999+07:00"),
+          closeDate: new Date("2025-04-30T23:59:00.999+07:00"),
           announceDate: new Date("2025-05-05T19:15:00.999+07:00"),
           onlyFor: [24], // Angkatan berapa yg diterima
           extends: true, //Timeline Extends atau tidak
@@ -981,11 +981,11 @@ export const oprecInfo = [
               description: "Open recruitment",
             },
             {
-             date: "28 - 29 April 2025",
+             date: "28 - 30 April 2025",
              description: "Extend Registration",
             },
             {
-              date: "29 April 2025",
+              date: "30 April 2025",
               description: "Close Registration",
             },
             {
