@@ -1542,7 +1542,7 @@ export const oprecInfo = [
       },
       {
         date: "11 - 16 Mei 2025",
-        description: "Seleksi berkas dan wawancara",
+        description: "Screening",
       },
 
       // nanti yang close diatas ini aja yang dikomen ketika extend
@@ -1559,7 +1559,7 @@ export const oprecInfo = [
       // },
       {
         date: "17 Mei 2025",
-        description: "Announcement📢",
+        description: "Announcement",
       },
     ], //semisal extends timelinenya diubah juga
 
@@ -1654,7 +1654,7 @@ export const oprecInfo = [
       {
         name: "pil1", //name nya disesuain sama nama kolom yang di supabase
         questions: "Divisi yang dipilih? (Divisi 1)", //pertanyaan yang ditampilin
-        placeholder: "cth: Publication and Public Relation",
+        placeholder: "Klik/tap untuk melihat dropdown...",
       },
       {
         name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
@@ -1664,7 +1664,7 @@ export const oprecInfo = [
       {
         name: "pil2", //name nya disesuain sama nama kolom yang di supabase
         questions: "Divisi yang dipilih? (Divisi 2)", //pertanyaan yang ditampilin
-        placeholder: "cth: Event Management",
+        placeholder: "Klik/tap untuk melihat dropdown...",
       },
       {
         name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
