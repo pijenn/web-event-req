@@ -1585,8 +1585,8 @@ export const oprecInfo = [
       {
         description:
           "2. Pendaftar membuka dan mengisi form pendaftaran open bidding (gunakan akun UB).",
-        // titleLink: "Download berkas soft file (email UB)",
-        // link: "https://drive.google.com/drive/folders/120_qEjapFd1s-iVeCj1srGq3foYIyp9D?usp=sharing",
+        titleLink: "Download berkas soft file (email UB)",
+        link: "https://drive.google.com/drive/folders/1pfRbG9vFF54ABNCqHVuPURMCSd_wHvwA?usp=sharing",
       },
       {
         description:
