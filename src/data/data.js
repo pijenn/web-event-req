@@ -1652,7 +1652,7 @@ export const oprecInfo = [
         placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
       },
       {
-        name: "pil1", //name nya disesuain sama nama kolom yang di supabase
+        name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
         questions: "Divisi yang dipilih? (Divisi 1)", //pertanyaan yang ditampilin
         placeholder: "Klik/tap untuk melihat dropdown...",
       },
@@ -1662,7 +1662,7 @@ export const oprecInfo = [
         placeholder: "cth: Karena sudah berpengalaman di bidang ini",
       },
       {
-        name: "pil2", //name nya disesuain sama nama kolom yang di supabase
+        name: "pilihan2", //name nya disesuain sama nama kolom yang di supabase
         questions: "Divisi yang dipilih? (Divisi 2)", //pertanyaan yang ditampilin
         placeholder: "Klik/tap untuk melihat dropdown...",
       },
