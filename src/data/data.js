@@ -1521,7 +1521,7 @@ export const oprecInfo = [
       "Open Recruitment Staff FILAFEST 2025", // line 1
     ],
     description: [
-      "FILKOM Awarding Festival merupakan bentuk apresiasi kepada seluruh Civitas Akademika Fakultas Ilmu Komputer Universitas Brawijaya yang telah berkontribusi dalam perjalanan satu periode Fakultas. Acara ini dirancang untuk pemberian penghargaan kepada LO/LOF beserta Dosen dan Mahasiswa yang telah memberikan dampak positif dan prestasi bagi fakultas. Diharapkan melalui acara ini, dapat tercipta rasa bangga, bahagia, serta rasa syukur di antara seluruh pihak yang terlibat, sekaligus memotivasi mereka untuk terus berkarya dan berkontribusi."
+      "FILKOM Awarding Festival merupakan bentuk apresiasi kepada seluruh Civitas Akademika Fakultas Ilmu Komputer Universitas Brawijaya yang telah berkontribusi dalam perjalanan satu periode Fakultas. Acara ini dirancang untuk pemberian penghargaan kepada LO/LOF beserta Dosen dan Mahasiswa yang telah memberikan dampak positif dan prestasi bagi fakultas. Diharapkan melalui acara ini, dapat tercipta rasa bangga, bahagia, serta rasa syukur di antara seluruh pihak yang terlibat, sekaligus memotivasi mereka untuk terus berkarya dan berkontribusi.",
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745281840/dekflythjy7pdyerwfo2.jpg `,
@@ -1567,16 +1567,16 @@ export const oprecInfo = [
     ], //semisal extends timelinenya diubah juga
 
     quotes:
-    "Akar dari semua kebaikan terletak di tanah penghargaan atas kebaikan. - Dalai Lama", //kalo gaada quotes bisa dikosongkan
+      "Akar dari semua kebaikan terletak di tanah penghargaan atas kebaikan. - Dalai Lama", //kalo gaada quotes bisa dikosongkan
     options: [
       "Divisi Acara",
       "Divisi Humas",
       "Divisi Desain, Dokumentasi, dan Media (DDM)",
       "Divisi Sponsorship and Funding",
-      "Divisi Perlengkapan"
-    ], //pilihan divisi                                     
+      "Divisi Perlengkapan",
+    ], //pilihan divisi
     formatDrive: "Pilihan 1_Pilihan 2_Nama Lengkap", //format google drive yang tampil di form pendaftaran
-    
+
     //alur pendaftaran
     alur: [
       {
@@ -1584,8 +1584,7 @@ export const oprecInfo = [
           "1. Peserta membuka link pendaftaran yang telah disediakan.",
       },
       {
-        description:
-          "2. Peserta membaca panduan alur pendaftaran.",
+        description: "2. Peserta membaca panduan alur pendaftaran.",
       },
       {
         description:
@@ -1613,7 +1612,7 @@ export const oprecInfo = [
         description:
           "NB: pemberitahuan tentang jadwal interview akan diinformasikan paling lambat H-1 sebelum jadwal screening.",
       },
-    ], 
+    ],
     formFields: [
       {
         is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
@@ -1629,7 +1628,7 @@ export const oprecInfo = [
         name: "panggilan", //name nya disesuain sama nama kolom yang di supabase
         questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
         placeholder: "cth: Audrey",
-      }, 
+      },
       {
         name: "prodi", //name nya disesuain sama nama kolom yang di supabase
         questions: "Program Studimu apa?", //pertanyaan yang ditampilin
@@ -1701,12 +1700,10 @@ export const oprecInfo = [
     api: {
       auth: "https://bemfilkom.ddns.net:8443/",
       check: "https://bem-rest.vercel.app/check/2025/OprecStaffFILAFEST", // Check if registrant is already registered
-      register:
-        "https://bem-rest.vercel.app/register/2025/OprecStaffFILAFEST", // Input registrant data
-      announce:
-        "https://bem-rest.vercel.app/announce/2025/OprecStaffFILAFEST", // Check registrant's acceptance status
+      register: "https://bem-rest.vercel.app/register/2025/OprecStaffFILAFEST", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/OprecStaffFILAFEST", // Check registrant's acceptance status
     },
-    afterMessage: [ 
+    afterMessage: [
       "Terima kasih!",
       "Selamat kamu telah berhasil terdaftar sebagai Calon Staff FILAFEST 2025🎉",
     ],
@@ -1726,21 +1723,21 @@ export const oprecInfo = [
       "Terimakasih karena sudah ingin menjadi bagian dari kami, tapi karena satu dan lain hal serta beberapa pertimbangan tertentu, kami ucapkan mohon maaf yang sebesar-besarnya, kami belum bisa menjadikan Anda sebagai bagian dari kami.",
       // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
     ],
-},
+  },
 
-// Open Bidding HOLOGY 8.0  📌📌
-/*
+  // Open Bidding HOLOGY 8.0  📌📌
+  /*
 Catatan:
 1. Extend 8 - 10 Mei 
 */
-{
+  {
     id: "2025-OpenBiddingHology", // id oprec formatnya tahun-oprec
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
     title: [
       "Open Bidding HOLOGY 8.0", // line 1
     ],
     description: [
-      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT."
+      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT.",
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745889006/y3bkq4hrhzzllrrizt0u.jpg`,
@@ -1782,7 +1779,7 @@ Catatan:
     ], //semisal extends timelinenya diubah juga
 
     quotes:
-    "Leadership is not about being in charge. It is about taking care of those in your charge. – Simon Sinek", //kalo gaada quotes bisa dikosongkan
+      "Leadership is not about being in charge. It is about taking care of those in your charge. – Simon Sinek", //kalo gaada quotes bisa dikosongkan
     options: [
       " Project Planner",
       " Competition",
@@ -1790,9 +1787,9 @@ Catatan:
       " Creative and Technology",
       " Equipment",
       " Sponsorship and Fundraisin",
-    ], //pilihan divisi                                     
+    ], //pilihan divisi
     formatDrive: "Pilihan1_Pilihan2_NamaLengkap", //format google drive yang tampil di form pendaftaran
-    
+
     //alur pendaftaran
     alur: [
       {
@@ -1802,8 +1799,8 @@ Catatan:
       {
         description:
           "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (menggunakan akun UB).",
-          titleLink: "Berkas Pendaftaran",
-          link: "https://drive.google.com/drive/folders/1b0GHV0pR3HD8U-IW8f-y3zE1H3yh4XEs?usp=sharing", //BELUM DIUBAH
+        titleLink: "Berkas Pendaftaran",
+        link: "https://drive.google.com/drive/folders/1b0GHV0pR3HD8U-IW8f-y3zE1H3yh4XEs?usp=sharing", //BELUM DIUBAH
       },
       {
         description:
@@ -1817,7 +1814,7 @@ Catatan:
         description:
           "5. Pendaftar akan mendapatkan pemberitahuan tentang jadwal wawancara yang akan diinformasikan melalui Line setelah pendaftar telah resmi mendaftarkan diri melalui website SGE.",
       },
-    ], 
+    ],
     formFields: [
       {
         is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
@@ -1833,7 +1830,7 @@ Catatan:
         name: "panggilan", //name nya disesuain sama nama kolom yang di supabase
         questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
         placeholder: "cth: Audrey",
-      }, 
+      },
       {
         name: "prodi", //name nya disesuain sama nama kolom yang di supabase
         questions: "Program Studimu apa?", //pertanyaan yang ditampilin
@@ -1905,12 +1902,10 @@ Catatan:
     api: {
       auth: "https://bemfilkom.ddns.net:8443/",
       check: "https://bem-rest.vercel.app/check/2025/OprecBPHHOLOGY", // Check if registrant is already registered
-      register:
-        "https://bem-rest.vercel.app/register/2025/OprecBPHHOLOGY", // Input registrant data
-      announce:
-        "https://bem-rest.vercel.app/announce/2025/OprecBPHHOLOGY", // Check registrant's acceptance status
+      register: "https://bem-rest.vercel.app/register/2025/OprecBPHHOLOGY", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/OprecBPHHOLOGY", // Check registrant's acceptance status
     },
-    afterMessage: [ 
+    afterMessage: [
       "Terima kasih!",
       "Selamat kamu telah berhasil terdaftar sebagai Calon Badan Pengurus Harian HOLOGY 8.0🎉",
     ],
@@ -1921,22 +1916,22 @@ Catatan:
     ],
     acceptMessage: [
       "Selamat!!!", // !!JANGAN DIGANTI
-      "Selamat! Kamu Terpilih Menjadi BPH HOLOGY 8.0 🎉", 
+      "Selamat! Kamu Terpilih Menjadi BPH HOLOGY 8.0 🎉",
       "Aloha! Kami dengan senang hati mengucapkan selamat karena kamu telah terpilih sebagai bagian dari Badan Pengurus Harian (BPH) HOLOGY 8.0! ",
       "Kami sangat senang menyambutmu sebagai bagian dari perjalanan seru ini. Akan ada banyak hal menarik yang bakal kita lewati bersama, dan kami percaya kamu bisa memberi warna baru dalam kepanitiaan HOLOGY 8.0.",
       "Untuk langkah awal, kamu bisa langsung bergabung ke grup WhatsApp BPH melalui link berikut yaa, 👉<a target='_blank' href='https://chat.whatsapp.com/KtMNlotZf9TKsUiG25pPzT' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
       " Sampai ketemu lagi! 💬",
-      "Salam hangat, HOLOGY 8.0"
+      "Salam hangat, HOLOGY 8.0",
     ],
     rejectMessage: [
       "Mohon maaf", // !!JANGAN DIGANTI
       "Terima Kasih Telah Mendaftar 🙏 ",
       "Hai, Terima kasih banyak atas antusiasme dan partisipasi kamu dalam proses seleksi BPH HOLOGY 8.0. Setelah melalui pertimbangan yang matang, mohon maaf kamu belum terpilih sebagai bagian dari BPH kali ini.",
       "Tapi jangan khawatir, masih banyak kesempatan seru lainnya untuk kamu berkembang dan berkontribusi bersama kami. Kami sangat menghargai semangatmu, dan berharap kamu tetap semangat serta terus berkarya 💪",
-      "Salam hangat, HOLOGY 8.0"
+      "Salam hangat, HOLOGY 8.0",
       // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
     ],
-},
+  },
 
   // Open Bidding BPH Artropolis 2025
 
@@ -2170,7 +2165,7 @@ Catatan:
         description: "Close Registration",
       },
       {
-        date: "12 Mei - 20 Mei 2025",
+        date: "11 Mei - 20 Mei 2025",
         description: "Screening",
       },
 
@@ -2205,7 +2200,7 @@ Catatan:
       "Fasilitator ",
       "Publikasi dan IT (PIT)",
     ], //pilihan divisi
-    formatDrive: "Pilihan Divisi 1_Pilihan Divisi 2_Nama Lengkap.", //format google drive yang tampil di form pendaftaran
+    formatDrive: "NamaLengkap_PilihanDivisi1_PilihanDivisi2'.", //format google drive yang tampil di form pendaftaran
 
     //alur pendaftaran
 
@@ -2218,8 +2213,8 @@ Catatan:
       {
         description:
           "2. Peserta membaca buku panduan pendaftaran PKKMB & Startup Academy FILKOM 2025 secara seksama.",
-        // titleLink: "Download berkas soft file (email UB)",
-        // link: "https://drive.google.com/drive/folders/120_qEjapFd1s-iVeCj1srGq3foYIyp9D?usp=sharing",
+        titleLink: "Download buku panduan soft file (email UB)",
+        link: "https://drive.google.com/drive/folders/1qI8IiLK8JpSA4ifipr3-B3zvG-rsfK13",
       },
       {
         description:
