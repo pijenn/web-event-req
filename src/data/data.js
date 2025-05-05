@@ -937,10 +937,9 @@ export const oprecInfo = [
     ],
   },
 
-  // FILKOM GOES TO SCHOOL 2025 📌📌
+  // FILKOM GOES TO SCHOOL 2025 ✅✅
   /*
   Catatan:
-  1. Extend 28-30 April 2025
   */
   {
     id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
@@ -1095,10 +1094,9 @@ export const oprecInfo = [
     ],
   },
 
-  // ENVIROACT 2025 📌📌
+  // ENVIROACT 2025 ✅✅
   /*
   Catatan:
-  1. Extend 26 - 28 April 2025
   */
   {
     id: "2025-VolunteerENVIROACT", // id oprec formatnya tahun-oprec
@@ -1279,11 +1277,9 @@ export const oprecInfo = [
     ],
   },
 
-  // SCHOTIVAL
+  // SCHOTIVAL ✅✅
   /*
   Catatan:
-  1. Alur pendaftaran belum jelas. Masih konfirmasi
-  2. Extend 1 - 3 Mei 2025
   */
   {
     id: "2025-SCHOTIVAL", // id oprec formatnya tahun-oprec
@@ -1512,6 +1508,435 @@ export const oprecInfo = [
       // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
     ],
   },
+
+  // FILAFEST 2025  📌📌
+  /*
+  Catatan:
+  1. Extend 8 - 10 Mei 
+  */
+  {
+    id: "2025-FILAFEST", // id oprec formatnya tahun-oprec
+    name: "FILAFEST 2025", // nama buat di tentang
+    title: [
+      "Open Recruitment Staff FILAFEST 2025", // line 1
+    ],
+    description: [
+      "FILKOM Awarding Festival merupakan bentuk apresiasi kepada seluruh Civitas Akademika Fakultas Ilmu Komputer Universitas Brawijaya yang telah berkontribusi dalam perjalanan satu periode Fakultas. Acara ini dirancang untuk pemberian penghargaan kepada LO/LOF beserta Dosen dan Mahasiswa yang telah memberikan dampak positif dan prestasi bagi fakultas. Diharapkan melalui acara ini, dapat tercipta rasa bangga, bahagia, serta rasa syukur di antara seluruh pihak yang terlibat, sekaligus memotivasi mereka untuk terus berkarya dan berkontribusi."
+    ],
+    logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745281840/dekflythjy7pdyerwfo2.jpg `,
+    openDate: new Date("2025-04-01T09:00:00.999+07:00"), //ini nanti diganti jadi April
+    closeDate: new Date("2025-05-08T23:59:00.999+07:00"), //nanti jadi 10 Mei
+    announceDate: new Date("2025-05-14T19:00:00.999+07:00"),
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      {
+        date: "1 - 8 Mei 2025",
+        description: "Open Recruitment",
+      },
+      {
+        date: "8 Mei 2025",
+        description: "Close Registration",
+      },
+      {
+        date: "8 - 12 Mei 2025",
+        description: "Screening",
+      },
+
+      // nanti yang close diatas ini aja yang dikomen ketika extend
+      // {
+      //  date: "8 - 10 Mei 2025",
+      //  description: "Extend Registration",
+      // },
+      // {
+      //  date: "10 Mei 2025", pukul 23.59
+      //  description: "Close Registration",
+      // },
+      //  date: "2 - 3 Mei 2025",
+      //  description: "Screening",
+      // },
+      {
+        date: "14 Mei 2025",
+        description: "Announcement📢",
+      },
+      {
+        date: "16 Mei 2025",
+        description: "First Gathering",
+      },
+    ], //semisal extends timelinenya diubah juga
+
+    quotes:
+    "Akar dari semua kebaikan terletak di tanah penghargaan atas kebaikan. - Dalai Lama", //kalo gaada quotes bisa dikosongkan
+    options: [
+      "Divisi Acara",
+      "Divisi Humas",
+      "Divisi Desain, Dokumentasi, dan Media (DDM)",
+      "Divisi Sponsorship and Funding",
+      "Divisi Perlengkapan"
+    ], //pilihan divisi                                     
+    formatDrive: "Pilihan 1_Pilihan 2_Nama Lengkap", //format google drive yang tampil di form pendaftaran
+    
+    //alur pendaftaran
+    alur: [
+      {
+        description:
+          "1. Peserta membuka link pendaftaran yang telah disediakan.",
+      },
+      {
+        description:
+          "2. Peserta membaca panduan alur pendaftaran.",
+      },
+      {
+        description:
+          "3. Peserta mengunduh dan mengisi berkas pendaftaran (soft-file).",
+        titleLink: "Berkas Pendaftaran",
+        link: "https://drive.google.com/drive/folders/1G51wgbK22DoiVUhP9j6mhOoiQV57llPY?usp=sharing", //BELUM DIUBAH
+      },
+      {
+        description:
+          "4. Peserta mengunggah berkas pendaftaran ke dalam google drive pribadi (akses wajib public).",
+      },
+      {
+        description:
+          "5. Peserta menyetujui surat komitmen yang telah disediakan.",
+      },
+      {
+        description:
+          "6. Peserta mengisi dan mengunggah link google drive yang berisi berkas pendaftaran pada website.",
+      },
+      {
+        description:
+          "7. Peserta akan mendapatkan informasi terkait jadwal screening.",
+      },
+      {
+        description:
+          "NB: pemberitahuan tentang jadwal interview akan diinformasikan paling lambat H-1 sebelum jadwal screening.",
+      },
+    ], 
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabasej
+        questions: "Siapa nama lengkapmu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Sulthon Ihsan ",
+      },
+      {
+        name: "panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
+        placeholder: "cth: Audrey",
+      }, 
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Program Studimu apa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Sistem Informasi",
+      },
+      {
+        name: "lembaga", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kamu masuk ke dalam LO/LOF apa? (ketik - jika tidak ada)", //pertanyaan yang ditampilin
+        placeholder: "cth: SGE dan Raion",
+      },
+      {
+        name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Tempat, Tanggal Lahirmu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Malang, 29 Februari 2005",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nomor HP kamu berapa?", //pertanyaan yang ditampilin
+        placeholder: "cth: 08991234567",
+      },
+      {
+        name: "idline", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Boleh dong diketik ID LINE mu", //pertanyaan yang ditampilin
+        placeholder: "cth: @itsgacorr",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Silahkan masukkan alamat asalmu", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alamat kamu di Malang?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+      },
+      {
+        name: "pil1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Masukkan pilihan pertama kamu", //pertanyaan yang ditampilin
+        placeholder: "cth: Divisi Humas",
+      },
+      {
+        name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alasan kamu memilih divisi ini?", //pertanyaan yang ditampilin
+        placeholder: "cth: Karena sudah berpengalaman di bidang ini",
+      },
+      {
+        name: "pil2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Masukkan pilihan kedua kamu", //pertanyaan yang ditampilin
+        placeholder: "cth: Divisi Perlengkapan",
+      },
+      {
+        name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alasan kamu memilih divisi ini?", //pertanyaan yang ditampilin
+        placeholder: "cth: Ingin mencoba hal baru",
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions:
+          "Terakhir, Link berkas (pastikan sudah diatur ke “everyone can view”😉)", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/OprecStaffFILAFEST", // Check if registrant is already registered
+      register:
+        "https://bem-rest.vercel.app/register/2025/OprecStaffFILAFEST", // Input registrant data
+      announce:
+        "https://bem-rest.vercel.app/announce/2025/OprecStaffFILAFEST", // Check registrant's acceptance status
+    },
+    afterMessage: [ 
+      "Terima kasih!",
+      "Selamat kamu telah berhasil terdaftar sebagai Calon Staff FILAFEST 2025🎉",
+    ],
+    closedMessage: [
+      "Maaf!",
+      "Pendaftaran sudah ditutup 🙏",
+      "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "Selamat Kamu Diterima! Semoga dengan bergabungnya, kita dapat menciptakan acara yang sukses dan penuh makna.",
+      "Silahkan bergabung ke dalam grup dibawah ini yaa",
+      "Link Grup : <a target='_blank' href='sge.clips.id/StaffFILAFEST2025' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      "Terimakasih karena sudah ingin menjadi bagian dari kami, tapi karena satu dan lain hal serta beberapa pertimbangan tertentu, kami ucapkan mohon maaf yang sebesar-besarnya, kami belum bisa menjadikan Anda sebagai bagian dari kami.",
+      // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
+    ],
+},
+
+// Open Bidding HOLOGY 8.0  📌📌
+/*
+Catatan:
+1. Extend 8 - 10 Mei 
+*/
+{
+    id: "2025-OpenBiddingHology", // id oprec formatnya tahun-oprec
+    name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
+    title: [
+      "Open Bidding HOLOGY 8.0", // line 1
+    ],
+    description: [
+      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT."
+    ],
+    logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745889006/y3bkq4hrhzzllrrizt0u.jpg`,
+    openDate: new Date("2025-04-01T09:00:00.999+07:00"), //ini nanti diganti jadi April
+    closeDate: new Date("2025-05-09T23:59:00.999+07:00"), //nanti jadi 10 Mei
+    announceDate: new Date("2025-05-14T19:00:00.999+07:00"),
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      {
+        date: "5 - 9 Mei 2025",
+        description: "Open Bidding",
+      },
+      {
+        date: "9 Mei 2025",
+        description: "Close Registration",
+      },
+      {
+        date: "8 - 13 Mei 2025",
+        description: "Screening",
+      },
+
+      // nanti yang close diatas ini aja yang dikomen ketika extend
+      // {
+      //  date: "10 - 12 Mei 2025",
+      //  description: "Extend Registration",
+      // },
+      // {
+      //  date: "10 Mei 2025", pukul 23.59
+      //  description: "Close Registration",
+      // },
+      //  date: "2 - 3 Mei 2025",
+      //  description: "Screening",
+      // },
+      {
+        date: "14 Mei 2025",
+        description: "Announcement📢",
+      },
+    ], //semisal extends timelinenya diubah juga
+
+    quotes:
+    "Leadership is not about being in charge. It is about taking care of those in your charge. – Simon Sinek", //kalo gaada quotes bisa dikosongkan
+    options: [
+      " Project Planner",
+      " Competition",
+      " Public Relation",
+      " Creative and Technology",
+      " Equipment",
+      " Sponsorship and Fundraisin",
+    ], //pilihan divisi                                     
+    formatDrive: "Pilihan1_Pilihan2_NamaLengkap", //format google drive yang tampil di form pendaftaran
+    
+    //alur pendaftaran
+    alur: [
+      {
+        description:
+          "1. Pendaftar membuka link pendaftaran di website SGE FILKOM UB.",
+      },
+      {
+        description:
+          "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (menggunakan akun UB).",
+          titleLink: "Berkas Pendaftaran",
+          link: "https://drive.google.com/drive/folders/1b0GHV0pR3HD8U-IW8f-y3zE1H3yh4XEs?usp=sharing", //BELUM DIUBAH
+      },
+      {
+        description:
+          "3. Pendaftar mengunggah berkas pendaftaran berformat pdf ke dalam Google Drive pribadi yang berisi berkas-berkas yang diperlukan (pastikan sudah diset ke all can view).",
+      },
+      {
+        description:
+          "4. Pendaftar mengisi data dan mengunggah link Google Drive yang berisi berkas open bidding di website SGE.",
+      },
+      {
+        description:
+          "5. Pendaftar akan mendapatkan pemberitahuan tentang jadwal wawancara yang akan diinformasikan melalui Line setelah pendaftar telah resmi mendaftarkan diri melalui website SGE.",
+      },
+    ], 
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabasej
+        questions: "Siapa nama lengkapmu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Sulthon Ihsan ",
+      },
+      {
+        name: "panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kalau nama panggilan?", //pertanyaan yang ditampilin
+        placeholder: "cth: Audrey",
+      }, 
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Program Studimu apa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Sistem Informasi",
+      },
+      {
+        name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Tempat, Tanggal Lahirmu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Malang, 29 Februari 2005",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nomor HP kamu berapa?", //pertanyaan yang ditampilin
+        placeholder: "cth: 08991234567",
+      },
+      {
+        name: "idline", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Boleh dong diketik ID LINE mu", //pertanyaan yang ditampilin
+        placeholder: "cth: @itsgacorr",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Silahkan masukkan alamat asalmu", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alamat kamu di Malang?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+      },
+      {
+        name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Pilih divisi pilihan pertama kamu!", //pertanyaan yang ditampilin
+        placeholder: "Klik/tap untuk melihat dropdown...",
+      },
+      {
+        name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alasan kamu memilih divisi tersebut?", //pertanyaan yang ditampilin
+        placeholder: "cth: Karena saya sudah berpengalaman di bidang ini",
+      },
+      {
+        name: "pilihan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Pilih divisi pilihan kedua kamu!", //pertanyaan yang ditampilin
+        placeholder: "Klik/tap untuk melihat dropdown...",
+      },
+      {
+        name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alasan kamu memilih divisi tersebut?", //pertanyaan yang ditampilin
+        placeholder: "cth: Ingin mencoba hal baru",
+      },
+      {
+        name: "motivasi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa yang membuatmu termotivasi jadi BPH HOLOGY 8.0", //pertanyaan yang ditampilin
+        placeholder: "cth: Ingin menambah pengalaman",
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions:
+          "Terakhir, Link berkas (pastikan sudah diatur ke “everyone can view”😉)", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/OprecBPHHOLOGY", // Check if registrant is already registered
+      register:
+        "https://bem-rest.vercel.app/register/2025/OprecBPHHOLOGY", // Input registrant data
+      announce:
+        "https://bem-rest.vercel.app/announce/2025/OprecBPHHOLOGY", // Check registrant's acceptance status
+    },
+    afterMessage: [ 
+      "Terima kasih!",
+      "Selamat kamu telah berhasil terdaftar sebagai Calon Badan Pengurus Harian HOLOGY 8.0🎉",
+    ],
+    closedMessage: [
+      "Maaf!",
+      "Pendaftaran sudah ditutup 🙏",
+      "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "Selamat! Kamu Terpilih Menjadi BPH HOLOGY 8.0 🎉", 
+      "Aloha! Kami dengan senang hati mengucapkan selamat karena kamu telah terpilih sebagai bagian dari Badan Pengurus Harian (BPH) HOLOGY 8.0! ",
+      "Kami sangat senang menyambutmu sebagai bagian dari perjalanan seru ini. Akan ada banyak hal menarik yang bakal kita lewati bersama, dan kami percaya kamu bisa memberi warna baru dalam kepanitiaan HOLOGY 8.0.",
+      "Untuk langkah awal, kamu bisa langsung bergabung ke grup WhatsApp BPH melalui link berikut yaa, 👉<a target='_blank' href='https://chat.whatsapp.com/KtMNlotZf9TKsUiG25pPzT' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
+      " Sampai ketemu lagi! 💬",
+      "Salam hangat, HOLOGY 8.0"
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      "Terima Kasih Telah Mendaftar 🙏 ",
+      "Hai, Terima kasih banyak atas antusiasme dan partisipasi kamu dalam proses seleksi BPH HOLOGY 8.0. Setelah melalui pertimbangan yang matang, mohon maaf kamu belum terpilih sebagai bagian dari BPH kali ini.",
+      "Tapi jangan khawatir, masih banyak kesempatan seru lainnya untuk kamu berkembang dan berkontribusi bersama kami. Kami sangat menghargai semangatmu, dan berharap kamu tetap semangat serta terus berkarya 💪",
+      "Salam hangat, HOLOGY 8.0"
+      // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
+    ],
+},
 
   // Open Bidding BPH Artropolis 2025
 
