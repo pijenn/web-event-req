@@ -1725,16 +1725,17 @@ export const oprecInfo = [
     ],
   },
 
-  // Open Bidding HOLOGY 8.0  📌📌
-  /*
+// Open Bidding HOLOGY 8.0  📌📌
+/*
 Catatan:
-1. Extend 8 - 10 Mei 
+1. Extend 9 - 12 Mei 
 */
   {
     id: "2025-OpenBiddingHology", // id oprec formatnya tahun-oprec
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
     title: [
-      "Open Bidding HOLOGY 8.0", // line 1
+      "Open Bidding BPH HOLOGY 8.0", // line 1
+      " "// line 2
     ],
     description: [
       "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT.",
@@ -1745,14 +1746,18 @@ Catatan:
     closeDate: new Date("2025-05-09T23:59:00.999+07:00"), //nanti jadi 10 Mei
     announceDate: new Date("2025-05-14T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       {
         date: "5 - 9 Mei 2025",
         description: "Open Bidding",
       },
       {
-        date: "9 Mei 2025",
+       date: "10 - 12 Mei 2025",
+       description: "Extend Registration",
+      },
+      {
+        date: "12 Mei 2025",
         description: "Close Registration",
       },
       {
@@ -1761,10 +1766,6 @@ Catatan:
       },
 
       // nanti yang close diatas ini aja yang dikomen ketika extend
-      // {
-      //  date: "10 - 12 Mei 2025",
-      //  description: "Extend Registration",
-      // },
       // {
       //  date: "10 Mei 2025", pukul 23.59
       //  description: "Close Registration",
@@ -2353,4 +2354,214 @@ Catatan:
       // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
     ],
   },
+  
+  // Open Recruitment Staff HOLOGY 8.0 📌📌
+  /*
+  1. Extend 22 - 23 Mei
+  */
+  {
+    id: "2025-OprecStaffHOLOGY", // id oprec formatnya tahun-oprec
+    name: "Open Recruitment Staff HOLOGY 8.0", // nama buat di tentang
+    title: [
+      "Open Recruitment Staff HOLOGY 8.0", // line 1
+      "", // line 2
+    ],
+    description: [
+      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT."
+    ],
+    logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1746832625/js19zbjxdrjjns2zwtrs.jpg`,
+    openDate: new Date("2025-04-17T19:00:00.999+07:00"),
+    closeDate: new Date("2025-05-21T23:59:00.999+07:00"),
+    announceDate: new Date("2025-05-26T19:00:00.999+07:00"),
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      {
+        date: "17 - 21 Mei 2025",
+        description: "Open Recruitment",
+      },
+      {
+        date: "17 - 21 Mei 2025",
+        description: "Pengumpulan Berkas",
+      },
+      {
+        date: "19 - 21 Mei 2025",
+        description: "Seleksi dan Wawancara",
+      },
+
+      // nanti yang close diatas ini aja yang dikomen ketika extend
+      // {
+      //  date: "17 Mei - 19 Mei 2025",
+      //  description: "Extend Registration",
+      // },
+      // {
+      //  date: "3 Mei 2025", pukul 23.59
+      //  description: "Close Registration",
+      // },
+      //  date: "2 - 3 Mei 2025",
+      //  description: "Screening",
+      // },
+      {
+        date: "26 Mei 2025",
+        description: "Pengumuman📢",
+      },
+    ], //semisal extends timelinenya diubah juga
+
+    quotes:
+      "Some of life’s best lessons aren’t taught in class—but in teamwork, challenges, and contribution.", //kalo gaada quotes bisa dikosongkan
+    options: [
+      " Project Planner",
+      " Competition",
+      " Public Relation",
+      " Creative and Technology",
+      " Equipment",
+      " Sponsorship and Fundraisin",
+    ], //pilihan divisi
+    formatDrive: "NamaLengkap_PilihanDivisi1_PilihanDivisi2'.", //format google drive yang tampil di form pendaftaran
+
+    //alur pendaftaran
+
+    //alur untuk individu
+    alur: [
+      {
+        description:
+          "1. Pendaftar membuka link pendaftaran di website SGE FILKOM UB.",
+      },
+      {
+        description:
+          "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan. (gunakan akun UB): ",
+        titleLink: "Berkas Pendaftaran",
+        link: "https://drive.google.com/drive/folders/1-VEnYm8sg0P6Wmk3X4FFFj0v5al_dqf7?usp=drive_link"
+      },
+      {
+        description:
+          "3. Pendaftar mengunggah berkas pendaftaran berformat pdf ke dalam Google Drive pribadi yang berisi berkas-berkas yang diperlukan (pastikan sudah diset ke all can view).",
+      },
+      {
+        description:
+          "4. Pendaftar mengisi data dan mengunggah link Google Drive yang berisi berkas open recruitment staff di website SGE.",
+      },
+      {
+        description:
+          "5. Pendaftar akan mendapatkan pemberitahuan tentang jadwal wawancara yang akan diinformasikan melalui Line setelah pendaftar telah resmi mendaftarkan diri melalui website SGE",
+      },
+    ], //isi dari alur pendaftaran
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Siapa Nama Lengkap Kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Nada Musaffya",
+      },
+      {
+        name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kalau Nama Panggilan?", //pertanyaan yang ditampilin
+        placeholder: "cth: Daffa",
+      },
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Program Studi?", //pertanyaan yang ditampilin
+        placeholder: "cth: Teknologi Informasi",
+      },
+      {
+        name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Tempat, Tanggal Lahir?", //pertanyaan yang ditampilin
+        placeholder: "cth: Malang, 29 Februari 2005",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nomor HP?", //pertanyaan yang ditampilin
+        placeholder: "cth: 08991234567",
+      },
+      {
+        name: "idline", //name nya disesuain sama nama kolom yang di supabase
+        questions: "ID Line?", //pertanyaan yang ditampilin
+        placeholder: "cth: @itsimut",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alamat asal kamu di mana??", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Sekarang tinggal di mana (Malang)?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+      },
+      {
+        name: "motivasi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa yang membuatmu termotivasi jadi staff HOLOGY 8.0?", //pertanyaan yang ditampilin
+        placeholder: "cth: Ingin berpartisipasi di balik layar kompetisi secara langsung",
+      },
+      {
+        name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Divisi yang dipilih? (Divisi 1)", //pertanyaan yang ditampilin
+        placeholder: "cth: Competition",
+      },
+      {
+        name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu memilih divisi tersebut?", //pertanyaan yang ditampilin
+        placeholder: "cth: Karena sudah berpengalaman di bidang ini",
+      },
+      {
+        name: "pilihan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Divisi yang dipilih? (Divisi 2)", //pertanyaan yang ditampilin
+        placeholder: "cth: Creative and Technology",
+      },
+      {
+        name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu memilih divisi tersebut?", //pertanyaan yang ditampilin
+        placeholder: "cth: Ingin mencoba hal baru",
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Taruh link drive berkas kamu disini, jangan lupa set ke all can view, ya!", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/OprecStaffHOLOGY", // Check if registrant is already registered
+      register: "https://bem-rest.vercel.app/register/2025/OprecStaffHOLOGY", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/OprecStaffHOLOGY", // Check registrant's acceptance status
+    },
+    afterMessage: [
+      "Terima kasih!",
+      "Selamat kamu telah berhasil terdaftar sebagai Calon Staff HOLOGY 8.0🤩🎉",
+    ],
+    closedMessage: [
+      "Maaf!",
+      "Pendaftaran sudah ditutup 🙏",
+      "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "Selamat! Kamu Terpilih Menjadi Staff HOLOGY 8.0🎊",
+      "Aloha! Kami dengan senang hati mengucapkan selamat karena kamu telah terpilih sebagai staff HOLOGY 8.0!🙌",
+      "Kami sangat senang menyambutmu sebagai bagian dari perjalanan seru ini. Akan ada banyak hal menarik yang bakal kita lewati bersama, dan kami percaya kamu bisa memberi warna baru dalam kepanitiaan HOLOGY 8.0.😍",
+      "Untuk langkah awal, kamu bisa langsung bergabung ke grup WhatsApp melalui link berikut yaa, 👉<a target='_blank' href='https://chat.whatsapp.com/CQnOfkXw9dBHfHeFxaff3L' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
+      "Sampai ketemu lagi!",
+      "Salam hangat, HOLOGY 8.0",
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      // "TERIMA KASIH ATAS PARTISIPASIMU!",
+      "Terima Kasih Telah Mendaftar",
+      "Hai, Terima kasih banyak atas antusiasme dan partisipasi kamu dalam proses seleksi Staff HOLOGY 8.0. Setelah melalui pertimbangan yang matang, mohon maaf kamu belum terpilih sebagai staff kali ini.",
+      "Tapi jangan khawatir, masih banyak kesempatan seru lainnya untuk kamu berkembang dan berkontribusi bersama kami. Kami sangat menghargai semangatmu, dan berharap kamu tetap semangat serta terus berkarya.",
+      "Salam hangat, HOLOGY 8.0",
+    ],
+  },
+
 ];
