@@ -1519,6 +1519,7 @@ export const oprecInfo = [
     name: "FILAFEST 2025", // nama buat di tentang
     title: [
       "Open Recruitment Staff FILAFEST 2025", // line 1
+      "",
     ],
     description: [
       "FILKOM Awarding Festival merupakan bentuk apresiasi kepada seluruh Civitas Akademika Fakultas Ilmu Komputer Universitas Brawijaya yang telah berkontribusi dalam perjalanan satu periode Fakultas. Acara ini dirancang untuk pemberian penghargaan kepada LO/LOF beserta Dosen dan Mahasiswa yang telah memberikan dampak positif dan prestasi bagi fakultas. Diharapkan melalui acara ini, dapat tercipta rasa bangga, bahagia, serta rasa syukur di antara seluruh pihak yang terlibat, sekaligus memotivasi mereka untuk terus berkarya dan berkontribusi.",
@@ -1526,17 +1527,21 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745281840/dekflythjy7pdyerwfo2.jpg `,
     openDate: new Date("2025-04-01T09:00:00.999+07:00"), //ini nanti diganti jadi April
-    closeDate: new Date("2025-05-08T23:59:00.999+07:00"), //nanti jadi 10 Mei
+    closeDate: new Date("2025-05-10T23:59:00.999+07:00"), //nanti jadi 10 Mei
     announceDate: new Date("2025-05-14T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       {
         date: "1 - 8 Mei 2025",
         description: "Open Recruitment",
       },
       {
-        date: "8 Mei 2025",
+       date: "8 - 10 Mei 2025",
+       description: "Extend Registration",
+      },
+      {
+        date: "10 Mei 2025",
         description: "Close Registration",
       },
       {
@@ -1545,10 +1550,6 @@ export const oprecInfo = [
       },
 
       // nanti yang close diatas ini aja yang dikomen ketika extend
-      // {
-      //  date: "8 - 10 Mei 2025",
-      //  description: "Extend Registration",
-      // },
       // {
       //  date: "10 Mei 2025", pukul 23.59
       //  description: "Close Registration",
