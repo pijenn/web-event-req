@@ -1735,7 +1735,7 @@ Catatan:
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
     title: [
       "Open Bidding BPH HOLOGY 8.0", // line 1
-      " "// line 2
+      ""// line 2
     ],
     description: [
       "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT.",
@@ -1743,7 +1743,7 @@ Catatan:
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1745889006/y3bkq4hrhzzllrrizt0u.jpg`,
     openDate: new Date("2025-04-01T09:00:00.999+07:00"), //ini nanti diganti jadi April
-    closeDate: new Date("2025-05-09T23:59:00.999+07:00"), //nanti jadi 10 Mei
+    closeDate: new Date("2025-05-12T23:59:00.999+07:00"), //nanti jadi 10 Mei
     announceDate: new Date("2025-05-14T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
@@ -2379,14 +2379,10 @@ Catatan:
     timeline: [
       {
         date: "17 - 21 Mei 2025",
-        description: "Open Recruitment",
+        description: "Open Recruitment & Pengumpulan Berkas",
       },
       {
-        date: "17 - 21 Mei 2025",
-        description: "Pengumpulan Berkas",
-      },
-      {
-        date: "19 - 21 Mei 2025",
+        date: "19 - 24 Mei 2025",
         description: "Seleksi dan Wawancara",
       },
 
@@ -2430,7 +2426,7 @@ Catatan:
       },
       {
         description:
-          "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan. (gunakan akun UB): ",
+          "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (gunakan akun UB). ",
         titleLink: "Berkas Pendaftaran",
         link: "https://drive.google.com/drive/folders/1-VEnYm8sg0P6Wmk3X4FFFj0v5al_dqf7?usp=drive_link"
       },
