@@ -1537,8 +1537,8 @@ export const oprecInfo = [
         description: "Open Recruitment",
       },
       {
-       date: "8 - 10 Mei 2025",
-       description: "Extend Registration",
+        date: "8 - 10 Mei 2025",
+        description: "Extend Registration",
       },
       {
         date: "10 Mei 2025",
@@ -1726,8 +1726,8 @@ export const oprecInfo = [
     ],
   },
 
-// Open Bidding HOLOGY 8.0  📌📌
-/*
+  // Open Bidding HOLOGY 8.0  📌📌
+  /*
 Catatan:
 1. Extend 9 - 12 Mei 
 */
@@ -1736,7 +1736,7 @@ Catatan:
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
     title: [
       "Open Bidding BPH HOLOGY 8.0", // line 1
-      ""// line 2
+      "", // line 2
     ],
     description: [
       "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT.",
@@ -1754,8 +1754,8 @@ Catatan:
         description: "Open Bidding",
       },
       {
-       date: "10 - 12 Mei 2025",
-       description: "Extend Registration",
+        date: "10 - 12 Mei 2025",
+        description: "Extend Registration",
       },
       {
         date: "12 Mei 2025",
@@ -1949,17 +1949,21 @@ Catatan:
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dag6rft1b/image/upload/v1746208292/_59A0196_afamdr.jpg`,
     openDate: new Date("2025-05-02T19:00:00.999+07:00"),
-    closeDate: new Date("2025-05-11T23:59:00.999+07:00"),
+    closeDate: new Date("2025-05-15T23:59:00.999+07:00"),
     announceDate: new Date("2025-05-17T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       {
-        date: "8 - 12 Mei 2025",
+        date: "8 - 11 Mei 2025",
         description: "Open Bidding",
       },
       {
-        date: "12 Mei 2025",
+        date: "12 - 15 Mei 2025",
+        description: "Extend Registration",
+      },
+      {
+        date: "15 Mei 2025",
         description: "Close Bidding",
       },
       {
@@ -1969,8 +1973,8 @@ Catatan:
 
       // nanti yang close diatas ini aja yang dikomen ketika extend
       // {
-      //  date: "1 - 3 Mei 2025",
-      //  description: "Extend Registration",
+      //   date: "12 - 15 Mei 2025",
+      //   description: "Extend Registration",
       // },
       // {
       //  date: "3 Mei 2025", pukul 23.59
@@ -2355,7 +2359,7 @@ Catatan:
       // "Jangan patah semangat teruslah mencoba dan menyalaa🔥",
     ],
   },
-  
+
   // Open Recruitment Staff HOLOGY 8.0 📌📌
   /*
   1. Extend 22 - 23 Mei
@@ -2368,7 +2372,7 @@ Catatan:
       "", // line 2
     ],
     description: [
-      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT."
+      "House of Technology (HOLOGY) adalah kompetisi tingkat nasional bergengsi tahunan untuk menjadi wadah mahasiswa/i dari berbagai Perguruan Tinggi Negeri, Swasta, dan juga Politeknik di seluruh negeri dalam menunjukkan kualitas dan supremasinya di bidang IT. HOLOGY, yang tahun ini masuk edisi ke-8, bukanlah sekadar kompetisi, namun juga festival dan ajang edukasi bagi seluruh insan pencinta IT.",
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1746832625/js19zbjxdrjjns2zwtrs.jpg`,
@@ -2429,7 +2433,7 @@ Catatan:
         description:
           "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (gunakan akun UB). ",
         titleLink: "Berkas Pendaftaran",
-        link: "https://drive.google.com/drive/folders/1-VEnYm8sg0P6Wmk3X4FFFj0v5al_dqf7?usp=drive_link"
+        link: "https://drive.google.com/drive/folders/1-VEnYm8sg0P6Wmk3X4FFFj0v5al_dqf7?usp=drive_link",
       },
       {
         description:
@@ -2493,7 +2497,8 @@ Catatan:
       {
         name: "motivasi", //name nya disesuain sama nama kolom yang di supabase
         questions: "Apa yang membuatmu termotivasi jadi staff HOLOGY 8.0?", //pertanyaan yang ditampilin
-        placeholder: "cth: Ingin berpartisipasi di balik layar kompetisi secara langsung",
+        placeholder:
+          "cth: Ingin berpartisipasi di balik layar kompetisi secara langsung",
       },
       {
         name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
@@ -2522,7 +2527,8 @@ Catatan:
       },
       {
         name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
-        questions: "Taruh link drive berkas kamu disini, jangan lupa set ke all can view, ya!", //pertanyaan yang ditampilin
+        questions:
+          "Taruh link drive berkas kamu disini, jangan lupa set ke all can view, ya!", //pertanyaan yang ditampilin
         placeholder: "cth: https://drive.google.com/xxxxx",
         pattern: "/(drive.google.com)/", //pattern regex kalo perlu
       },
@@ -2560,5 +2566,4 @@ Catatan:
       "Salam hangat, HOLOGY 8.0",
     ],
   },
-
 ];
