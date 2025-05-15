@@ -1509,10 +1509,9 @@ export const oprecInfo = [
     ],
   },
 
-  // FILAFEST 2025  📌📌
+  // FILAFEST 2025  ✅✅
   /*
   Catatan:
-  1. Extend 8 - 10 Mei 
   */
   {
     id: "2025-FILAFEST", // id oprec formatnya tahun-oprec
@@ -1726,11 +1725,10 @@ export const oprecInfo = [
     ],
   },
 
-  // Open Bidding HOLOGY 8.0  📌📌
+  // Open Bidding HOLOGY 8.0 ✅✅
   /*
-Catatan:
-1. Extend 9 - 12 Mei 
-*/
+  Catatan:
+`*/
   {
     id: "2025-OpenBiddingHology", // id oprec formatnya tahun-oprec
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
@@ -1935,8 +1933,7 @@ Catatan:
     ],
   },
 
-  // Open Bidding BPH Artropolis 2025
-
+  // Open Bidding BPH Artropolis 2025 📌📌
   {
     id: "2025-OpbidBPHArtropolis", // id oprec formatnya tahun-oprec
     name: "Artropolis 2025", // nama buat di tentang
