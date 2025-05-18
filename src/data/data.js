@@ -2568,4 +2568,211 @@ export const oprecInfo = [
       "Salam hangat, HOLOGY 8.0",
     ],
   },
+
+    // Open Recruitment Staff ARTROPOLIS 📌📌
+  /*
+  1. Extend 24 - 27 Mei 2025
+  */
+  {
+    id: "2025-OprecStaffArtropolis", // id oprec formatnya tahun-oprec
+    name: "Open Recruitment Staff Artropolis", // nama buat di tentang
+    title: [
+      "Open Recruitment Staff ARTROPOLIS", // line 1
+      "", // line 2
+    ],
+    description: [
+      "Artropolis hadir sebagai ruang kreasi bagi mahasiswa untuk mengekspresikan bakat dan keterampilan di bidang seni. Melalui empat kegiatan menarik, yaitu kompetisi seni, workshop, pameran seni, dan malam penganugrahan. Kompetisi seni menjadi wadah bagi mahasiswa untuk mengekspresikan bakat mereka sekaligus menumbuhkan jiwa kompetitif. Pameran seni dan workshop bertujuan untuk mengasah kreativitas, serta memperluas wawasan mahasiswa di bidang seni. Para pemenang kompetisi Artropolis akan berpartisipasi dalam PEKSIMINAS (Pekan Seni Mahasiswa Nasional).",
+    ],
+    logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1747203365/knionime4xcrcg35nenk.jpg`,
+    openDate: new Date("2025-04-20T19:00:00.999+07:00"),
+    closeDate: new Date("2025-05-24T23:59:00.999+07:00"),
+    announceDate: new Date("2025-05-29T19:00:00.999+07:00"),
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      {
+        date: "20 - 24 Mei 2025",
+        description: "Open Recruitment",
+      },
+      {
+        date: "24 Mei 2025",
+        description: "Close Recruitment",
+      },
+      {
+        date: "23 - 28 Mei 2025",
+        description: "Seleksi Berkas dan Wawancara",
+      },
+
+      // nanti yang close diatas ini aja yang dikomen ketika extend
+      // {
+      //  date: "17 Mei - 19 Mei 2025",
+      //  description: "Extend Registration",
+      // },
+      // {
+      //  date: "3 Mei 2025", pukul 23.59
+      //  description: "Close Registration",
+      // },
+      //  date: "2 - 3 Mei 2025",
+      //  description: "Screening",
+      // },
+      {
+        date: "29 Mei 2025",
+        description: "Pengumuman📢",
+      },
+    ], //semisal extends timelinenya diubah juga
+
+    quotes:
+      "Inspire, Create, Lead the Art Wave!", //kalo gaada quotes bisa dikosongkan
+    options: [
+      " Event",
+      " Competition",
+      " Public Relation",
+      " Documentation, Design, dan Multimedia",
+      " Equipment and Property",
+      " Sponsor and Fundraising",
+    ], //pilihan divisi
+    formatDrive: "Piihan 1_Pilihan 2_Nama Lengkap", //format google drive yang tampil di form pendaftaran
+
+    //alur pendaftaran
+    alur: [
+      {
+        description:
+          "1. Pendaftar membuka link pendaftaran di website SGE FILKOM UB.",
+      },
+      {
+        description:
+          "2. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan (gunakan akun UB). ",
+        titleLink: "Berkas Pendaftaran",
+        link: "https://drive.google.com/drive/folders/16ByfYwtvieKW_GZWgB9wWq0mr9kIxCWd?usp=drive_link",
+      },
+      {
+        description:
+          "3. Pendaftar membuat salinan dari template yang disediakan dan mengisi berkas yang ditentukan.",
+      },
+      {
+        description:
+          "4. Pendaftar mengunggah berkas pendaftaran berformat pdf ke dalam Google Drive pribadi yang berisi berkas-berkas yang diperlukan (pastikan sudah diset ke all can view).",
+      },
+      {
+        description:
+          "5. Pendaftar mengisi data dan mengunggah link Google Drive yang berisi berkas Open recruitment di website SGE.",
+      },
+      {
+        description:
+          "6. Pendaftar akan mendapatkan pemberitahuan tentang jadwal Screening yang akan diinformasikan melalui LINE setelah pendaftar telah resmi mendaftarkan diri melalui website SGE.",
+      },
+    ], //isi dari alur pendaftaran
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Siapa Nama Lengkap Kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Nada Musaffya",
+      },
+      {
+        name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kalau Nama Panggilan?", //pertanyaan yang ditampilin
+        placeholder: "cth: Daffa",
+      },
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Program Studi kamu apa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Teknologi Informasi",
+      },
+      {
+        name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Tempat, Tanggal Lahir?", //pertanyaan yang ditampilin
+        placeholder: "cth: Malang, 29 Februari 2005",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nomor HP?", //pertanyaan yang ditampilin
+        placeholder: "cth: 08991234567",
+      },
+      {
+        name: "idline", //name nya disesuain sama nama kolom yang di supabase
+        questions: "ID Line?", //pertanyaan yang ditampilin
+        placeholder: "cth: @itsgacor",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alamat asal kamu di mana?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Sekarang tinggal di mana (Malang)?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+      },
+      {
+        name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Divisi yang dipilih? (Divisi 1)", //pertanyaan yang ditampilin
+        placeholder: "Klik/Tap untuk melihat dropdown pilihan",
+      },
+      {
+        name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Karena sudah berpengalaman di bidang ini",
+      },
+      {
+        name: "pilihan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Divisi yang dipilih? (Divisi 2)", //pertanyaan yang ditampilin
+        placeholder: "Klik/Tap untuk melihat dropdown pilihan",
+      },
+      {
+        name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu?", //pertanyaan yang ditampilin
+        placeholder: "Masukkan (-) jika tidak memimilih",
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions:
+          "Taruh link drive berkas kamu disini, jangan lupa set ke all can view, ya!", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/OprecStaffArtropolis", // Check if registrant is already registered
+      register: "https://bem-rest.vercel.app/register/2025/OprecStaffArtropolis", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/OprecStaffArtropolis", // Check registrant's acceptance status
+    },
+    afterMessage: [
+      "Terima kasih!",
+      "Selamat kamu telah berhasil terdaftar sebagai Calon Staff ARTROPOLIS🤩🎉",
+    ],
+    closedMessage: [
+      "Maaf!",
+      "Pendaftaran sudah ditutup 🙏",
+      "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "🎉 SELAMAT 🎉",
+      "Kami dengan penuh semangat mengumumkan bahwa kamu telah TERPILIH sebagai STAFF ARTROPOLIS 2025!🎊👏",
+      "Kami sangat antusias menyambutmu dalam tim dan tidak sabar untuk berkolaborasi dalam menyukseskan event luar biasa ini. 🌟🔥",
+      "Langsung aja klik link ini ya buat info selanjutnya: 👉<a target='_blank' href='https://chat.whatsapp.com/BqMrLpT8ikKGyUPWWhfIKu' class='text-yellow-200 font-bold'>Klik di sini!</a> 💬 📲\n",
+      "Sekali lagi, selamat dan semangat menjalankan amanah ini!🚀💪✨",
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      // "TERIMA KASIH ATAS PARTISIPASIMU!",
+      "TERIMA KASIH ATAS PARTISIPASIMU!",
+      "Kami sangat mengapresiasi antusiasme dan dedikasimu dalam proses seleksi Open Recruitment Staff Artropolis 2025. Namun, mohon maaf, kali ini kamu belum terpilih untuk Menjadi Staff di Artropolis 2025. Jangan berkecil hati! Masih banyak kesempatan lain untuk berkembang dan berkontribusi. Kami percaya potensimu akan bersinar di kesempatan berikutnya!🌟✨",
+      "Salam hangat,",
+      "Talent Growth 2025",
+    ],
+  },
+
 ];
