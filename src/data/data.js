@@ -2585,7 +2585,7 @@ export const oprecInfo = [
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1747203365/knionime4xcrcg35nenk.jpg`,
-    openDate: new Date("2025-04-20T19:00:00.999+07:00"),
+    openDate: new Date("2025-05-20T19:00:00.999+07:00"),
     closeDate: new Date("2025-05-24T23:59:00.999+07:00"),
     announceDate: new Date("2025-05-29T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
