@@ -2155,7 +2155,7 @@ export const oprecInfo = [
     landingImage: `https://res.cloudinary.com/dnxqmck17/image/upload/v1746255249/_61A0069_huc8h6.jpg`,
     openDate: new Date("2025-05-10T00:00:00.999+07:00"),
     closeDate: new Date("2025-05-19T23:59:00.999+07:00"),
-    announceDate: new Date("2025-05-21T19:00:00.999+07:00"),
+    announceDate: new Date("2025-05-22T00:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: true, //Timeline Extends atau tidak
     timeline: [
