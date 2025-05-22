@@ -2379,13 +2379,13 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1746832625/js19zbjxdrjjns2zwtrs.jpg`,
     openDate: new Date("2025-05-17T19:00:00.999+07:00"),
-    closeDate: new Date("2025-05-21T23:59:00.999+07:00"),
+    closeDate: new Date("2025-05-23T23:59:00.999+07:00"),
     announceDate: new Date("2025-05-26T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       {
-        date: "17 - 21 Mei 2025",
+        date: "17 - 23 Mei 2025",
         description: "Open Recruitment & Pengumpulan Berkas",
       },
       {
