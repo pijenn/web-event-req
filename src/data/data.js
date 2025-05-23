@@ -2362,9 +2362,8 @@ export const oprecInfo = [
     ],
   },
 
-  // Open Recruitment Staff HOLOGY 8.0 📌📌
+  // Open Recruitment Staff HOLOGY 8.0 ✅✅
   /*
-  1. Extend 22 - 23 Mei
   */
   {
     id: "2025-OprecStaffHOLOGY", // id oprec formatnya tahun-oprec
@@ -2586,17 +2585,21 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1747203365/knionime4xcrcg35nenk.jpg`,
     openDate: new Date("2025-05-20T19:00:00.999+07:00"),
-    closeDate: new Date("2025-05-24T23:59:00.999+07:00"),
+    closeDate: new Date("2025-05-27T23:59:00.999+07:00"),
     announceDate: new Date("2025-05-29T19:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       {
         date: "20 - 24 Mei 2025",
         description: "Open Recruitment",
       },
       {
-        date: "24 Mei 2025",
+       date: "25 - 27 Mei 2025",
+       description: "Extend Recruitment",
+      },
+      {
+        date: "27 Mei 2025",
         description: "Close Recruitment",
       },
       {
@@ -2605,10 +2608,6 @@ export const oprecInfo = [
       },
 
       // nanti yang close diatas ini aja yang dikomen ketika extend
-      // {
-      //  date: "17 Mei - 19 Mei 2025",
-      //  description: "Extend Registration",
-      // },
       // {
       //  date: "3 Mei 2025", pukul 23.59
       //  description: "Close Registration",
