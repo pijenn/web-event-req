@@ -385,9 +385,6 @@ export const oprecInfo = [
   },
 
   // Oprec KETUPEL PKKMB & SA. ✅✅
-  /*
-  Catatan:
-  */
   {
     id: "2025-OpenTenderKetuaPelaksanaPKKMB&SA", // id oprec formatnya tahun-oprec
     name: "OPEN TENDER KETUA PELAKSANA PKKMB & SA 2025", // nama buat di tentang
@@ -572,10 +569,7 @@ export const oprecInfo = [
     ],
   },
 
-  // Hology 8.0 ✅✅
-  /*
-  Catatan: 
-  */
+  // Operc Ketupel Hology 8.0 ✅✅
   {
     id: "2025-OpenTenderKetuaPelaksanaHOLOGY", // id oprec formatnya tahun-oprec
     name: "OPEN TENDER KETUA PELAKSANA HOLOGY 8.0", // nama buat di tentang
@@ -752,10 +746,7 @@ export const oprecInfo = [
     ],
   },
 
-  // ARTROPOLIS 2025 ✅✅
-  /*
-  Catatan: 
-  */
+  // Oprec Ketupel ARTROPOLIS 2025 ✅✅
   {
     id: "2025-OpenTenderKetuaPelaksanaARTROPOLIS", // id oprec formatnya tahun-oprec
     name: "OPEN TENDER KETUA PELAKSANA ARTROPOLIS 2025", // nama buat di tentang
@@ -937,10 +928,7 @@ export const oprecInfo = [
     ],
   },
 
-  // FILKOM GOES TO SCHOOL 2025 ✅✅
-  /*
-  Catatan:
-  */
+  // Voluteer FGTS 2025 ✅✅
   {
     id: "2025-VolunteerFilkomGoesToSchool", // id oprec formatnya tahun-oprec
     name: "FILKOM GOES TO SCHOOL 2025", // nama buat di tentang
@@ -1094,10 +1082,7 @@ export const oprecInfo = [
     ],
   },
 
-  // ENVIROACT 2025 ✅✅
-  /*
-  Catatan:
-  */
+  // Oprec Staff ENVIROACT 2025 ✅✅
   {
     id: "2025-VolunteerENVIROACT", // id oprec formatnya tahun-oprec
     name: "ENVIROACT 2025", // nama buat di tentang
@@ -1278,9 +1263,6 @@ export const oprecInfo = [
   },
 
   // SCHOTIVAL ✅✅
-  /*
-  Catatan:
-  */
   {
     id: "2025-SCHOTIVAL", // id oprec formatnya tahun-oprec
     name: "SCHOTIVAL 2025", // nama buat di tentang
@@ -1510,9 +1492,6 @@ export const oprecInfo = [
   },
 
   // FILAFEST 2025  ✅✅
-  /*
-  Catatan:
-  */
   {
     id: "2025-FILAFEST", // id oprec formatnya tahun-oprec
     name: "FILAFEST 2025", // nama buat di tentang
@@ -1726,9 +1705,6 @@ export const oprecInfo = [
   },
 
   // Open Bidding HOLOGY 8.0 ✅✅
-  /*
-  Catatan:
-`*/
   {
     id: "2025-OpenBiddingHology", // id oprec formatnya tahun-oprec
     name: "Open Bidding HOLOGY 8.0", // nama buat di tentang
@@ -1933,7 +1909,7 @@ export const oprecInfo = [
     ],
   },
 
-  // Open Bidding BPH Artropolis 2025 📌📌
+  // Open Bidding BPH Artropolis 2025 ✅✅
   {
     id: "2025-OpbidBPHArtropolis", // id oprec formatnya tahun-oprec
     name: "Artropolis 2025", // nama buat di tentang
@@ -2140,7 +2116,7 @@ export const oprecInfo = [
     ],
   },
 
-  // Open Recruitment Staff PKKMB & Startup Academy FILKOM 2025 📌📌
+  // Open Recruitment Staff PKKMB & Startup Academy FILKOM 2025 ✅✅
   {
     id: "2025-OprecStaffPKKMBSA", // id oprec formatnya tahun-oprec
     name: "PKKMB & Startup Academy FILKOM 2025", // nama buat di tentang
@@ -2363,8 +2339,6 @@ export const oprecInfo = [
   },
 
   // Open Recruitment Staff HOLOGY 8.0 ✅✅
-  /*
-  */
   {
     id: "2025-OprecStaffHOLOGY", // id oprec formatnya tahun-oprec
     name: "Open Recruitment Staff HOLOGY 8.0", // nama buat di tentang
@@ -2568,10 +2542,7 @@ export const oprecInfo = [
     ],
   },
 
-    // Open Recruitment Staff ARTROPOLIS 📌📌
-  /*
-  1. Extend 24 - 27 Mei 2025
-  */
+  // Open Recruitment Staff ARTROPOLIS ✅✅
   {
     id: "2025-OprecStaffArtropolis", // id oprec formatnya tahun-oprec
     name: "Open Recruitment Staff Artropolis", // nama buat di tentang
@@ -2773,5 +2744,199 @@ export const oprecInfo = [
       "Talent Growth 2025",
     ],
   },
+  
+  // LKMM-TM 📌📌
+  /*
+    Catatan:
+    - Extend 
+    -tutup: 13 Agustus, 23,59
+  */
+  {
+    id: "2025-OprecPesertaLKMMTM", // id oprec formatnya tahun-oprec
+    name: "LKMM-TM", // nama buat di tentang
+    title: [
+      "Pendaftaran Seminar dan Workshop LKMM-TM", // line 1
+      "", // line 2
+    ],
+    description: [
+      "LKMM-TM 2025 adalah seminar dan workshop kepemimpinan mahasiswa yang dirancang untuk membekali mahasiswa dengan wawasan, sikap, dan keterampilan untuk mengkoordinasi, mengembangkan, dan membina tim kerja dalam organisasi serta memperluas jaringan.  Melalui pengembangan kepemimpinan tingkat menengah, peserta akan belajar cara membuka potensi kecepatan (velocity) dalam diri mereka untuk memimpin perubahan dengan presisi dan efisiensi. LKMM-TM 2025 diperuntukkan bagi mahasiswa minimal semester  III.",
+    ],
+    logo: `https://res.cloudinary.com/dks74omr4/image/upload/v1753939279/Logo_qqshez.png`, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1753937792/DSC09948_qqgsoq.jpg`,
+    openDate: new Date("2025-08-02T06:00:00.999+07:00"),
+    closeDate: new Date("2025-08-13T23:59:00.999+07:00"),
+    announceDate: new Date("2025-08-17T18:00:00.999+07:00"),
+    onlyFor: [23, 24], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      { 
+        date: "2 - 13 Agustus 2025",
+        description: "Open Recruitment",
+      },
+      // {
+      //  date: "25 - 27 Mei 2025",
+      //  description: "Extend Recruitment",
+      // },
+      {
+        date: "13 Agustus 2025",
+        description: "Close Recruitment",
+      },
+      {
+        date: "18 Agustus 2025",
+        description: "Technical Meeting",
+      },
 
+      // nanti yang close diatas ini aja yang dikomen ketika extend
+      // {
+      //  date: "3 Mei 2025", pukul 23.59
+      //  description: "Close Registration",
+      // },
+      //  date: "2 - 3 Mei 2025",
+      //  description: "Screening",
+      // },
+      // {
+      //   date: "29 Mei 2025",
+      //   description: "Pengumuman📢",
+      // },
+    ], //semisal extends timelinenya diubah juga
+
+    quotes:
+      "“Unlock Velocity Lead Change with Precision and Speed”", //kalo gaada quotes bisa dikosongkan
+    options: [], //pilihan divisi
+    formatDrive: "", //format google drive yang tampil di form pendaftaran
+
+    //alur pendaftaran
+    alur: [
+      {
+        description:
+          "1. Peserta membuka link pendaftaran yang telah disediakan oleh panitia (website BEM FILKOM UB).",
+      },
+      {
+        description:
+          "2. Peserta mengunduh dan mengisi berkas pendaftaran (dalam bentuk soft file) pada link yang telah disediakan.",
+        titleLink: "Link Pendaftaran",
+        link: "https://drive.google.com/drive/u/0/folders/1eGCrOb6gmtbBaFas9QR_1tNgggiZ0Voc",
+      },
+      {
+        description:
+          "3. Peserta membaca dan memahami Buku Panduan Open Recruitment yang telah disediakan panitia di link google drive.",
+      },
+      {
+        description:
+          "4. Peserta mengunduh twibbon yang telah disediakan lalu mengunggah foto diri melalui media sosial instagram pribadi, serta tag akun instagram @lkmmtm.filkom (sesuai ketentuan twibbon).",
+      },
+      {
+        description:
+          "5. Peserta mengunggah berkas pendaftaran ke dalam Google Drive pribadi (akses link folder Google Drive wajib public/shareable).",
+      },
+      {
+        description:
+          "6. Peserta menyetujui Surat Pernyataan Komitmen yang telah diisi serta menyetujui Peraturan Umum LKMM-TM 2025.",
+      },
+      {
+        description:
+          "7. Peserta mengisi data diri dan mengunggah link Google Drive yang berisi berkas pendaftaran pada website BEM FILKOM.",
+      },
+      {
+        description:
+          "8. Peserta akan mendapatkan informasi terkait pengumuman pada tanggal yang telah ditentukan melalui website BEM FILKOM.",
+      },
+      {
+        description:
+          "9. Segala bentuk informasi terkait akan diumumkan hanya melalui akun instagram resmi @lkmmtm.filkom dan/atau @bemfilkomub.",
+      },
+    ], //isi dari alur pendaftaran
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Siapa Nama Lengkap Kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Nada Musaffya",
+      },
+      {
+        name: "panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kalau Nama Panggilan?", //pertanyaan yang ditampilin
+        placeholder: "cth: Daffa",
+      },
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Program Studi kamu apa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Teknologi Informasi",
+      },
+      {
+        name: "ttl", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Tempat, Tanggal Lahir?", //pertanyaan yang ditampilin
+        placeholder: "cth: Malang, 29 Februari 2005",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nomor HP?", //pertanyaan yang ditampilin
+        placeholder: "cth: 08991234567",
+      },
+      {
+        name: "idline", //name nya disesuain sama nama kolom yang di supabase
+        questions: "ID Line?", //pertanyaan yang ditampilin
+        placeholder: "cth: @itsgacor",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Alamat asal kamu di mana?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Sekarang tinggal di mana (Malang)?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 10, Malang, Jawa Timur",
+      },
+      {
+        name: "alasan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu ingin menjadi peserta LKMM-TM?", //pertanyaan yang ditampilin
+        placeholder: "Ingin menambah ilmu",
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions:
+        "Taruh link drive berkas kamu disini, jangan lupa set ke all can view, ya!", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/LKMMTM", // Check if registrant is already registered
+      register: "https://bem-rest.vercel.app/register/2025/LKMMTM", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/LKMMTM", // Check registrant's acceptance status
+    },
+    afterMessage: [
+      "Terima kasih!",
+      "Selamat kamu telah berhasil terdaftar sebagai Calon Peserta LKMM-TM FILKOM 2025😊🎉",
+      "Tetap pantau informasi terbaru untuk mengetahui hasilnya yaa",
+    ],
+    closedMessage: [
+      "Maaf!",
+      "Pendaftaran sudah ditutup 🙏",
+      "Jika kamu sudah mendaftar, semangat dan selamat mengikuti proses pendaftaran yang selanjutnya! Jika belum, pantau terus info lainnya di media sosial BEM FILKOM UB.",
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "YAY, CONGRATS!",
+      "You’re officially a part of LKMM-TM FILKOM 2025 (^‿^)/",
+      "Untuk pengumuman dan info penting lainnya, langsung aja join grup WA berikut yaa: 👉<a target='_blank' href='https://chat.whatsapp.com/JD2OPByrzaDGAiV8TnYDXC' class='text-yellow-200 font-bold'>Klik di sini!</a> 💬 📲\n",
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      // "TERIMA KASIH ATAS PARTISIPASIMU!",
+      "Mohon maaf, kamu belum bisa mengikuti LKMM-TM tahun ini.",
+      "Tetap semangat dan jangan menyerah! Kesempatan untuk berkembang tidak berhenti sampai di sini. Teruslah mencoba dan jangan ragu untuk mengambil peluang lainnya di masa depan.",
+    ],
+  },
 ];
