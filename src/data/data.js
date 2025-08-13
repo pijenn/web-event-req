@@ -2764,7 +2764,7 @@ export const oprecInfo = [
     logo: `https://res.cloudinary.com/dks74omr4/image/upload/v1753939279/Logo_qqshez.png`, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1753937792/DSC09948_qqgsoq.jpg`,
     openDate: new Date("2025-08-02T06:00:00.999+07:00"),
-    closeDate: new Date("2025-08-13T23:59:00.999+07:00"),
+    closeDate: new Date("2025-08-10T23:59:00.999+07:00"),
     announceDate: new Date("2025-08-17T18:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
     extends: false, //Timeline Extends atau tidak
