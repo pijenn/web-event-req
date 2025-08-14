@@ -2745,12 +2745,7 @@ export const oprecInfo = [
     ],
   },
   
-  // LKMM-TM 📌📌
-  /*
-    Catatan:
-    - Extend 
-    -tutup: 13 Agustus, 23,59
-  */
+  // LKMM-TM ✅✅
   {
     id: "2025-OprecPesertaLKMMTM", // id oprec formatnya tahun-oprec
     name: "LKMM-TM", // nama buat di tentang
@@ -2764,21 +2759,21 @@ export const oprecInfo = [
     logo: `https://res.cloudinary.com/dks74omr4/image/upload/v1753939279/Logo_qqshez.png`, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1753937792/DSC09948_qqgsoq.jpg`,
     openDate: new Date("2025-08-02T06:00:00.999+07:00"),
-    closeDate: new Date("2025-08-10T23:59:00.999+07:00"),
+    closeDate: new Date("2025-08-16T16:00:00.999+07:00"),
     announceDate: new Date("2025-08-17T18:00:00.999+07:00"),
     onlyFor: [23, 24], // Angkatan berapa yg diterima
-    extends: false, //Timeline Extends atau tidak
+    extends: true, //Timeline Extends atau tidak
     timeline: [
       { 
         date: "2 - 13 Agustus 2025",
         description: "Open Recruitment",
       },
-      // {
-      //  date: "25 - 27 Mei 2025",
-      //  description: "Extend Recruitment",
-      // },
       {
-        date: "13 Agustus 2025",
+       date: "14 - 16 Agustus 2025",
+       description: "Extend Recruitment",
+      },
+      {
+        date: "16 Agustus 2025",
         description: "Close Recruitment",
       },
       {
