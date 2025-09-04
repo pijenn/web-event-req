@@ -37,6 +37,12 @@ module.exports = {
         yellowBG: "#FDFADB",
         green:"#208B71",
         putih:"#FDFADB",
+        orange:"#E87707",
+        brightYellow : "#FCC61A",
+        greenLight: "#6C9B8B",
+        cream: "#FFFCEE", 
+        brown: "#F2DEC1",
+        raspberry: "#E90658"
       },
       fontFamily: {
         sans: ['Lato', 'sans-serif'],

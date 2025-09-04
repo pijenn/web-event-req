@@ -52,17 +52,15 @@ const Home = () => {
           </section>
           <section
             id="tentang"
-            className="relative flex flex-col content-center justify-center flex-grow w-full px-12 py-20 overflow-y-hidden bg-cover"
-            style={{
-              backgroundImage: `url('https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535681/navbar_uecvvg.png')`,
-            }}
+            className="relative flex flex-col content-center justify-center flex-grow w-full px-12 py-20 overflow-y-hidden bg-cover bg-brown"
           >
             <div className="self-center max-w-5xl text-center">
-              <h1 className="text-4xl mb-10 font-extrabold tracking-tight md:text-4xl text-white uppercase">
-                About {dataOprec.name}
-                <div className="w-12 h-1 mt-3 bg-newOrange mx-auto"></div>
-              </h1>
-              <div className="flex flex-col text-lg tracking-tight leading-relaxed text-justify text-white">
+              <div className="flex space-x-5 justify-center mb-10 text-3xl"> 
+                <img src="/red-event.svg"/>
+                <h1 className="text-4xl font-semibold tracking-tight md:text-4xl text-orange uppercase"> About {dataOprec.name} </h1>
+                <img src="/red-event.svg"/>
+              </div>
+              <div className="flex flex-col text-lg tracking-tight leading-relaxed text-justify text-black">
                 {dataOprec.description.map((item, index) => (
                   <div key={index}>
                     <p>{item}</p>
@@ -74,15 +72,16 @@ const Home = () => {
           </section>
           <section
             id="linimasa"
-            className="relative flex space-y-8 md:space-y-0 flex-col content-center justify-center flex-grow px-12 py-20 overflow-y-hidden bg-cover text-green"
-            style={{
-              backgroundImage: `url('https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535456/bg-cover-main_lhun5z.png')`,
-            }}
+            className="relative bg-cream flex space-y-8 md:space-y-0 flex-col content-center justify-center flex-grow px-12 py-20 overflow-y-hidden bg-cover text-greenLight"
           >
             {/*Title*/}
             <div className="text-4xl mb-10 self-center max-w-5xl text-center">
               <div className="font-extrabold tracking-tight uppercase">
-                Timeline {dataOprec.name}
+                <div className="flex justify-center mb-5 text-3xl space-x-5">
+                  <img src="/yellow-event.svg"/>
+                  <h1> Timeline {dataOprec.name} </h1>
+                  <img src="/yellow-event.svg"/>
+                </div>
                 {dataOprec.extends ? (
                   <div className="text-lg italic mt-4 font-normal tracking-tighter">
                     UPDATE TERBARU EXTEND
@@ -90,7 +89,6 @@ const Home = () => {
                 ) : (
                   <></>
                 )}
-                <div className="w-12 h-1 mt-3 bg-newOrange mx-auto"></div>
               </div>
             </div>
             {/*Timelines*/}
@@ -99,12 +97,12 @@ const Home = () => {
                 {dataOprec.timeline.map((item, index) => (
                   <div
                     key={index}
-                    className="flex flex-col text-xl md:text-2xl flex-grow w-full text-center bg-green to-putih rounded-lg shadow-lg px-6 py-6 hover:transition-all transition transform hover:-translate-y-3"
+                    className="flex flex-col text-xl md:text-2xl flex-grow w-full text-center bg-orange to-putih rounded-lg shadow-lg px-6 py-6 hover:transition-all transition transform hover:-translate-y-3"
                   >
                     <div className="font-extrabold tracking-tighter text-white">
                       {item.date}
                     </div>
-                    <div className="font-extrabold tracking-tighter text-newBlue opacity-90">
+                    <div className="font-extrabold tracking-tighter text-brightYellow opacity-90">
                       {item.description}
                     </div>
                     
@@ -114,21 +112,22 @@ const Home = () => {
             </div>
             <div className="flex flex-col md:space-y-0 md:flex-row content-center justify-between flex-grow w-full lg:text-left text-center lg:pl-8 lg:pr-20 lg:pt-12">
             <div>
-            <div className="lg:mt-12 text-4xl md:text-6xl text-shadow-lg font-extrabold leading-relaxed tracking-tighter text-newOrange text-center lg:text-left">
+            <div className="lg:mt-12 text-4xl md:text-6xl font-extrabold text-orange text-center lg:text-left">
              Ready to sign up?
              </div>
-            <div className="text-1xl md:text-1xl mt-4 text-shadow-lg leading-relaxed tracking-tighter text-newOrange text-center lg:text-left">
+            <div className="text-1xl md:text-1xl mt-4 text-shadow-lg leading-relaxed tracking-tighter text-orange text-center lg:text-left">
             {dataOprec.quotes}
            </div>
            </div>
-           <div className="flex flex-col content-center justify-center text-lg tracking-tight leading-relaxed text-justify text-white md:ml-auto">
-           <Link
-           to={pathname + "/notice"}
-           className="text-center py-4 px-12 text-3xl font-bold bg-gradient-to-r bg-newOrange text-white rounded-full shadow-md hover:bg-white hover:border-newOrange hover:border-2 hover:text-green transition ease-linear focus:outline-noned"
-            tabIndex="-1"
-             >
-            Register
-           </Link>
+           <div className="flex content-center justify-center items-center mt-8 px-10 md:mt-0 relative">
+            <Link
+            to={pathname + "/notice"}
+            className="text-center py-4 px-12 text-3xl font-bold bg-gradient-to-r bg-greenLight text-white rounded-full shadow-md hover:bg-white hover:border-green hover:border-2 hover:text-greenLight transition ease-linear focus:outline-noned"
+              tabIndex="-1"
+              > 
+                Register
+            </Link>
+            <img src="/maskot.png" alt="register maskot" className="absolute w-20 right-0" />
             </div>
           </div>
           </section>

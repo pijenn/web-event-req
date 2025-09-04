@@ -10,9 +10,8 @@ const Navbar = () => {
   if (pathname === "/") return null;
   return (
     <nav
-      className="top-0 w-full h-auto z-50 flex flex-col content-center justify-center px-12 py-4"
+      className="top-0 w-full h-auto z-50 flex flex-col content-center justify-center px-12 py-4 bg-greenLight"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535681/navbar_uecvvg.png')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -20,10 +19,6 @@ const Navbar = () => {
     >
       <div className="self-center flex flex-col md:space-y-0 md:flex-row content-center justify-between flex-grow w-5/6">
         <div className="flex">
-          <img
-            src="https://res.cloudinary.com/ddlo3v9hx/image/upload/v1738910400/Logo_SGE_for_Web_yieqge.svg"
-            className="hidden md:flex w-11 h-11 pointer-events-none mr-2"
-          />
           <Link
             to="/"
             className="hidden md:flex self-center text-md md:text-2xl font-semibold leading-relaxed text-shadow-md text-white text-center md:text-left"

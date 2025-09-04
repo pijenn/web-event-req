@@ -136,20 +136,21 @@ else {
         <>
           <CheckUser redirect pathname={pathname} />
 
-          <section className="relative flex flex-col content-center h-full min-h-screen py-24 px-16 justify-center flex-grow overflow-y-hidden bg-cover"
-           style={{
-            backgroundImage: `url('https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535456/bg-cover-main_lhun5z.png')`,
-          }}
+          <section className="relative flex flex-col content-center h-full min-h-screen py-24 px-16 justify-center flex-grow overflow-y-hidden bg-cover bg-cream"
           >
             <header className="relative z-10 flex flex-col content-center justify-center flex-grow space-x-0 md:space-x-6 md:flex-row md:justify-center">
               <div className="self-center text-center md:text-left">
-                <h1 className="text-3xl uppercase font-extrabold mt-4 text-center md:mb-0 md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-newOrange to-newPurple">
-                  {announcement[0]}
-                </h1>
+                <div className="flex justify-center items-center md:space-x-4 space-x-2 md:mb-10">           
+                  <img src="/yellow-event.svg" alt="maskot" className="md:w-16 w-10"/>
+                  <h1 className="text-3xl uppercase font-extrabold text-center md:text-5xl text-greenLight">
+                    {announcement[0]}
+                  </h1>
+                  <img src="/yellow-event.svg" alt="maskot" className="md:w-16 w-10"/>
+                </div>
                 <div className="max-w-xl text-center">
                   <div className="flex flex-col justify-center md:justify-start text-md leading-snug tracking-tighter text-gray-900 mt-5 ml-1">
                     {announcement[0] === "Selamat!!!" ? (
-                      <div className="flex flex-col space-y-3 p-4 bg-green text-white rounded-lg shadow-md transition ease-linear h-full w-full">
+                      <div className="flex flex-col space-y-3 p-4 bg-orange text-white rounded-lg shadow-md transition ease-linear h-full w-full">
                          <span className="font-bold">{announcement[1]}</span>
                           {announcement.slice(2).map((item, index) => (
                             <p
@@ -171,7 +172,7 @@ else {
                           ))}
                       </div>
                     ) : (
-                      <div className="flex flex-col space-y-3 p-4 bg-newBlue text-white rounded-lg shadow-md transition ease-linear">
+                      <div className="flex flex-col space-y-3 p-4 bg-raspberry text-white rounded-lg shadow-md transition ease-linear">
                         <span className="font-bold">{announcement[1]}</span>
                         {announcement.slice(2).map((item, index) => (
                             <p

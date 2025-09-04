@@ -41,7 +41,7 @@ const Card = ({
           </div>
         </div>
         <div className="p-4">
-          <div className="flex flex-col justify-between items-center text-center">
+          <div className="flex flex-col justify-between items-center text-center p-4">
             <h3 className="font-bold text-xl">{name}</h3>
             {isOpen ? (
               isExtend && (
@@ -79,8 +79,14 @@ const Card = ({
 
           <p className="text-sm font-light mb-4 mt-2 text-center my-2">{desc}</p>
           <Link
-          className="border-2 border-newOrange py-1 px-8 bg-white text-newOrange rounded-full hover:text-white hover:bg-newOrange hover:border-newOrange transition duration-75 ease-in mx-auto block text-center"
           to={to}
+          className={`rounded-full px-4 py-2 text-sm mx-auto block w-max border-2
+             ${
+                isAnnounced
+                ? "border-green text-green hover:bg-green hover:text-white" 
+                : "border-newOrange text-newOrange hover:bg-newOrange hover:text-white"
+              }
+            `}
             >
            {isAnnounced ? "Cek Pengumuman" : "Selengkapnya"}
           </Link>
@@ -136,11 +142,10 @@ const Main = () => {
         <div className="py-5 px-8 mt-3 mx-0 ">
           {filteredOprec.length > 0 ? (
             <>
-                <div className="flex mt-20 justify-center mb-14">
-                <img
-                src='https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535685/tulisan-daftar_udcvfz.png'
-                className="lg:w-1/3 md:w-1/3 sm:w-full"
-                />
+                <div className="flex space-x-5 mt-20 justify-center mb-14 text-4xl text-green font-extrabold">
+                  <img src="/yellow-event.svg"/>
+                  <h1>Daftar kuy</h1>
+                  <img src="/yellow-event.svg"/>
                 </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center mb-8">
                 {filteredOprec.map((oprec, idx) => (

@@ -82,10 +82,7 @@ const Login = () => {
           <CheckUser forLoggedOut redirect pathname={pathname} />
 
           <section
-            className="relative flex flex-col content-center justify-center flex-grow h-screen min-h-full overflow-y-hidden bg-cover"
-            style={{
-              backgroundImage: `url('https://res.cloudinary.com/ddlo3v9hx/image/upload/v1727535456/bg-cover-main_lhun5z.png')`,
-            }}
+            className="relative flex flex-col content-center justify-center flex-grow h-screen min-h-full overflow-y-hidden bg-cover bg-cream"
           >
             <header className="relative z-10 flex flex-col content-center justify-center flex-grow h-full min-h-screen p-16 space-x-0 md:space-x-6 md:flex-col md:justify-center">
               <img
@@ -137,7 +134,7 @@ const Login = () => {
                   </span>
                   <button
                     type="submit"
-                    className="font-bold py-2 w-full bg-gradient-to-r bg-newOrange text-white rounded-full shadow-md hover:from-gray-50 hover:to-gray-300  hover:text-newOrange transition ease-linear focus:outline-none"
+                    className="font-bold py-2 w-full bg-gradient-to-r bg-orange text-white rounded-full shadow-md hover:from-gray-50 hover:to-gray-300  hover:text-newOrange transition ease-linear focus:outline-none"
                     tabIndex="-1"
                   >
                     Masuk
