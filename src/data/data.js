@@ -2934,4 +2934,251 @@ export const oprecInfo = [
       "Tetap semangat dan jangan menyerah! Kesempatan untuk berkembang tidak berhenti sampai di sini. Teruslah mencoba dan jangan ragu untuk mengambil peluang lainnya di masa depan.",
     ],
   },
+
+    // Oprec Staff Muda SGE FILKOM UB 2025 ✅✅
+    /*
+    catatan:
+    - Extend 11 Oktober
+    - Bagian kata selamat belum ada
+    - Bagian tidak keterima nanti ada link transparansi 
+    
+    */
+  {
+    id: "2025-OprecJuniorStaff", // id oprec formatnya tahun-oprec
+    name: "Open Recruitment Junior Staff SGE", // nama buat di tentang
+    title: [
+      "Open Recruitment", // line 1
+      "Junior Staff SGE FILKOM 2025", // line 2
+    ],
+    description: [
+      "Open Recruitment of Junior Staff SGE FILKOM 2025 is one of SGE FILKOM's work programmes to attract Junior staff members of SGE FILKOM. This work programme can be registered by all KBMFILKOM who have passed the Startup Academy FILKOM.", //paragraf 1
+    ],
+    logo: LOGO_BEM, // gambar logo di home, login, dan robot image
+    landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1758982241/staffmuda2024.jpg`,
+    openDate: new Date("2025-09-04T13:00:00.000+07:00"),
+    closeDate: new Date("2025-10-14T23:59:00.000+07:00"),
+    announceDate: new Date("2025-10-18T19:00:00.000+07:00"),
+    onlyFor: [24, 25], // Angkatan berapa yg diterima
+    extends: false, //Timeline Extends atau tidak
+    timeline: [
+      {
+        date: "18 September 2025",
+        description: "Coming Soon 🚀",
+      },
+      {
+        date: "04 - 10 Oktober 2025",
+        description: "Open Recruitment 📝",
+      },
+      {
+        date: "14 Oktober 2025",
+        description: "Leaderless Group Discussion 💬",
+      },
+      {
+        date: "05 - 13 Oktober 2025",
+        description: "Screening 👨‍💻",
+      },
+      {
+        date: "18 Oktober 2025",
+        description: "Announcement 📢",
+      },
+    ],
+
+    quotes: "When life gives you lemons, make lemonade", //kalo gaada quotes bisa dikosongkan
+    options: [
+      " Human Capital Ministry",
+      " Creative Enterprise",
+      " Talent Growth Ministry",
+      " Student Advocacy and Welfare Ministry",
+      " Inter-Agency Affairs Ministry",
+      " Studies and Strategic Action",
+      " Social Equity and Environment",
+      " Administration and Finance Bureau",
+      " Creative Media and Information Bureau",
+      " IT Solution Bureau",
+    ], //pilihan divisi
+    formatDrive: "Pilihan1_Pilihan2_NamaLengkap", //format google drive yang tampil di form pendaftaran
+    alur: [
+      {
+        description: "1. Participants register on the SGE FILKOM Website.",
+      },
+      {
+        description:
+          "2. Participants open the registration link provided by SGE FILKOM.",
+      },
+      {
+        description:
+          "3. Participants fill in the registration file bellow.",
+        titleLink: "Registration file",
+        link: "https://drive.google.com/drive/folders/1LRM4kkYFKUz3O78AoOgJi-VvptOo05lj",
+      },
+      {
+        description:
+          "4. Participants read the Open Recruitment Guidebook, Provisions, General Regulations, and Code of Ethics.",
+      },
+      {
+        description:
+          "5. Participants download the twibbon that has been provided and upload a photo of themselves via personal Instagram social media, and tag the Instagram account @bemfilkomub (according to the twibbon provisions).",
+      },
+      {
+        description:
+          "6. Participants upload the Registration File into a personal Google Drive folder",
+        note: "(access to the Google Drive folder link must be public/shareable).",
+      },
+      {
+        description:
+          "7. Participants agree to the Statement of Commitment that has been filled out and agree to the General Regulations and Code of Ethics of SGE FILKOM 2025. ",
+      },
+      {
+        description:
+          "8. Participants fill in their personal data and upload the Google Drive link containing the registration file on the SGE FILKOM website.",
+      },
+      {
+        description:
+          "9. Participants are required to enter the LINE Open Recruitment Staff SGE FILKOM 2025 group (Group link will appear after participants submit registration on the web).",
+      },
+      {
+        description:
+          "10. Participants are required to take part in a Leaderless Group Discussion (LGD) with a schedule that will be informed through the LINE Open Recruitment Staff BEM FILKOM 2025 group.",
+      },
+      {
+        description:
+          "11. Participants are required to take part in the next stage, namely Screening / Interview which is offline after the Leaderless Group Discussion (LGD) stage with a schedule that will be informed no later than H-1 of the interview schedule.",
+      },
+      {
+        description:
+          "12. The committee will confirm the attendance of the interview on the day of the interview.",
+      },
+      {
+        description:
+          "13. Participants must be present 30 minutes before the interview schedule that has been informed.",
+      },
+    ], //isi dari alur pendaftaran
+    formFields: [
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Setelah ini, jawablah pertanyaan-pertanyaan di bawah pada textbox yang disediakan.", //pertanyaan yang ditampilin
+      },
+      {
+        name: "nama", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Nama lengkap kamu siapa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Yosefina Agustine",
+      },
+      {
+        name: "nama_panggilan", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kamu biasa dipanggil gimana?", //pertanyaan yang ditampilin
+        placeholder: "cth: Titin",
+      },
+      {
+        name: "prodi", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kamu dari program studi apa?", //pertanyaan yang ditampilin
+        placeholder: "cth: Teknologi Informasi",
+      },
+      {
+        name: "tanggal_lahir", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Kapan tanggal lahir kamu? (format: DD Month YYYY)", //pertanyaan yang ditampilin
+        placeholder: "cth: 23 Februari 2004",
+      },
+      {
+        name: "no_hp", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Minta nomor hp-mu dong", //pertanyaan yang ditampilin
+        placeholder:
+        "cth: 0812104062000",
+      },
+      {
+        name: "id_line", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa ID Line kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: itsgacorr",
+      },
+      {
+        name: "asal", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Di mana alamat asal kamu?", //pertanyaan yang ditampilin
+        placeholder: "cth: Jalan Veteran Nomor 8, Bekasi, Jawa Barat",
+      },
+      {
+        name: "alamat", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Di mana alamat rumah kamu (di malang)?", //pertanyaan yang ditampilin
+        placeholder:
+        "cth: Jalan Veteran Nomor 8, Lowokwaru, Malang, Jawa Timur",
+      },
+      {
+        name: "pilihan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Pilih Kementerian/Kebiroan Pilihan Pertama kamu!", //pertanyaan yang ditampilin
+        placeholder: "Klik/tap untuk melihat dropdown...",
+      },
+      {
+        name: "alasan1", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu memilih Kementerian/Kebiroan itu?", //pertanyaan yang ditampilin
+        placeholder:
+        "cth: Karena saya tertarik dengan Kementerian/Kebiroan ini.",
+      },
+      {
+        name: "pilihan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Pilih Kementerian/Kebiroan Pilihan Kedua kamu!", //pertanyaan yang ditampilin
+        placeholder: "Klik/tap untuk melihat dropdown...",
+      },
+      {
+        name: "alasan2", //name nya disesuain sama nama kolom yang di supabase
+        questions: "Apa alasan kamu memilih Kementerian/Kebiroan itu?", //pertanyaan yang ditampilin
+        placeholder:
+        "cth: Karena saya tertarik dengan Kementerian/Kebiroan ini.",
+      },
+      {
+        name: "link_drive", //name nya disesuain sama nama kolom yang di supabase
+        questions:
+        "Terakhir, masukkan link Google Drive berkas soft file kamu. Jangan lupa permission-nya harus sudah di-set ke public (anyone with link can view).", //pertanyaan yang ditampilin
+        placeholder: "cth: https://drive.google.com/xxxxx",
+        pattern: "/(drive.google.com)/", //pattern regex kalo perlu
+      },
+      {
+        is_robot: true, //kalo bukan pertanyaan dari robot diilangin juga gpp
+        questions:
+          "Mantap Betul! Kalau kamu ingin mengubah jawaban, kamu bisa klik/tap pada jawaban yang ingin kamu ubah lalu mengubah isian di textbox.", //pertanyaan yang ditampilin
+      },
+    ], //isi dari form field chat
+    api: {
+      auth: "https://bemfilkom.ddns.net:8443/",
+      check: "https://bem-rest.vercel.app/check/2025/OprecJuniorStaff", // Check if registrant is already registered
+      register: "https://bem-rest.vercel.app/register/2025/OprecJuniorStaff", // Input registrant data
+      announce: "https://bem-rest.vercel.app/announce/2025/OprecJuniorStaff", // Check registrant's acceptance status
+    },
+    afterMessage: [
+      "Thank You!",
+      "You have been successfully registered as a candidate for Junior Staff at SGE FILKOM 2025.",
+      // "Link Grup : <a target='_blank' href='https://line.me/ti/g/NmGPR2BcxF' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
+    ],
+    closedMessage: [
+      "Apologies",
+      "Registration has been closed 🙏",
+      "If you have already registered, we wish you success in the subsequent registration process. If you have not yet registered, please continue to follow updates on BEM FILKOM UB’s social media channels."
+    ],
+    acceptMessage: [
+      "Selamat!!!", // !!JANGAN DIGANTI
+      "Dear Future Executive 👋🏻\n",
+      "🎉 𝘾𝙊𝙉𝙂𝙍𝘼𝙏𝙐𝙇𝘼𝙏𝙄𝙊𝙉𝙎! 🎉\n",
+      "We really appreciate your enthusiasm for the whole recruitment process!\n",
+      "✅ 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿 ✅\n",
+      "As a 𝗦𝘁𝗮𝗳𝗳 of 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗚𝗼𝘃𝗲𝗿𝗻𝗺𝗲𝗻𝘁 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 (𝗦𝗚𝗘) 𝗙𝗜𝗟𝗞𝗢𝗠 𝗨𝗕 𝟮𝟬𝟮𝟱! 🥳\n",
+      "This is your chance to be part of the #VoxAeterna family. We believe you’ll bring positive energy and meaningful contributions to this incredible journey.\n",
+      "𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘅𝘁?\n",
+      "Join the Vox Aeterna Cabinet Group through the following link: <a target='_blank' href='https://clips.id/JoinVoxAeternaGroupChat' class='text-blue-800 font-bold'>clips.id/JoinVoxAeternaGroupChat</a>\n",
+      "Stay tune and be prepared for Onboarding Staff information that will be informed in the cabinet group, so please join the group 𝗮𝘀 𝘀𝗼𝗼𝗻 𝗮𝘀 𝗽𝗼𝘀𝘀𝗶𝗯𝗹𝗲! 😉\n",
+      "If you have any questions, don’t hesitate to reach out to us okeyy.\n",
+      "Once again, congratulations! Let’s work together to make SGE FILKOM UB even more amazing ✨\n",
+      "𝗦𝗲𝗲 𝘆𝗼𝘂 𝗼𝗻 𝗢𝗻𝗯𝗼𝗮𝗿𝗱𝗶𝗻𝗴 𝗦𝘁𝗮𝗳𝗳 𝗦𝗚𝗘 𝗙𝗜𝗟𝗞𝗢𝗠 𝗨𝗕 𝟮𝟬𝟮𝟱! 🚀\n",
+      "Cheers,\n",
+      "𝗦𝗚𝗘 𝗙𝗜𝗟𝗞𝗢𝗠 𝗨𝗕 𝟮𝟬𝟮𝟱\n",
+    ],
+    rejectMessage: [
+      "Mohon maaf", // !!JANGAN DIGANTI
+      "Dear registrant,",
+      "Thank you for applying to 𝗚𝗿𝗮𝗻𝗱 𝗥𝗲𝗰𝗿𝘂𝗶𝘁𝗺𝗲𝗻𝘁 𝗦𝘁𝗮𝗳𝗳 𝗦𝗚𝗘 𝗙𝗜𝗟𝗞𝗢𝗠 𝗨𝗕 𝟮𝟬𝟮𝟱✨",
+      "Thank you for your participation in the Interview and LGD phase. After considering all the applications submitted in the recruitment, interviews, and LGD it is with a heavy heart that we inform you that you didn’t pass the process. We truly appreciate your interest in SGE FILKOM and wish you the very best in your future endeavors.🔥",
+      // "Link buat ke transparansi berkas",
+      "If you have any questions, don't hesitate to contact us okeyy.",
+      "Thank you once again for being part of this process with us. 𝗦𝘁𝗮𝘆 𝗰𝗼𝗻𝗳𝗶𝗱𝗲𝗻𝘁 and 𝗸𝗲𝗲𝗽 𝘀𝗵𝗶𝗻𝗶𝗻𝗴! ✨",
+      "Best wishes,",
+      "𝗦𝗚𝗘 𝗙𝗜𝗟𝗞𝗢𝗠 𝗨𝗕 𝟮𝟬𝟮𝟱",
+    ],
+  },
 ];

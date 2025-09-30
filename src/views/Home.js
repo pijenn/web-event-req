@@ -36,7 +36,7 @@ const Home = () => {
                   alt="Logo"
                 />
                 <div className="self-center text-center md:text-left text-shadow-md">
-                  <h1 className="text-5xl font-extrabold leading-tight tracking-tight  md:mb-0 md:text-7xl text-center lg:text-left md:animate-bounce">
+                  <h1 className="text-5xl font-extrabold leading-tight tracking-tight md:mb-0 md:text-8xl text-center lg:text-left md:animate-bounce">
                     <span className="text-transparent bg-clip-text bg-green">
                       {dataOprec.title[0]}
                     </span>
@@ -115,7 +115,7 @@ const Home = () => {
             <div className="lg:mt-12 text-4xl md:text-6xl font-extrabold text-orange text-center lg:text-left">
              Ready to sign up?
              </div>
-            <div className="text-1xl md:text-1xl mt-4 text-shadow-lg leading-relaxed tracking-tighter text-orange text-center lg:text-left">
+            <div className="text-1xl md:text-2xl mt-4 text-shadow-lg leading-relaxed tracking-tighter text-orange text-center lg:text-left">
             {dataOprec.quotes}
            </div>
            </div>
