@@ -2956,7 +2956,7 @@ export const oprecInfo = [
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1758982241/staffmuda2024.jpg`,
     openDate: new Date("2025-09-04T13:00:00.000+07:00"),
-    closeDate: new Date("2025-10-14T23:59:00.000+07:00"),
+    closeDate: new Date("2025-10-10T23:59:00.000+07:00"),
     announceDate: new Date("2025-10-18T19:00:00.000+07:00"),
     onlyFor: [23, 24, 25], // Angkatan berapa yg diterima
     extends: false, //Timeline Extends atau tidak
@@ -2970,11 +2970,11 @@ export const oprecInfo = [
         description: "Open Recruitment 📝",
       },
       {
-        date: "14 Oktober 2025",
+        date: "13 Oktober 2025",
         description: "Leaderless Group Discussion 💬",
       },
       {
-        date: "05 - 13 Oktober 2025",
+        date: "06 - 12 Oktober 2025",
         description: "Screening 👨‍💻",
       },
       {
@@ -3050,7 +3050,7 @@ export const oprecInfo = [
       },
       {
         description:
-          "13. Participants must be present 30 minutes before the interview schedule that has been informed.",
+          "13. Participants must be present 15 minutes before the interview schedule that has been informed.",
       },
     ], //isi dari alur pendaftaran
     formFields: [
@@ -3145,7 +3145,7 @@ export const oprecInfo = [
     afterMessage: [
       "Thank You!",
       "You have been successfully registered as a candidate for Junior Staff at SGE FILKOM 2025.",
-      // "Link Grup : <a target='_blank' href='https://line.me/ti/g/NmGPR2BcxF' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
+      "Link Grup : <a target='_blank' href='https://line.me/ti/g/56bCV-e2kP' class='text-yellow-200 font-bold'>Klik di sini!</a> \n",
     ],
     closedMessage: [
       "Apologies",
