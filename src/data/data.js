@@ -2958,7 +2958,7 @@ export const oprecInfo = [
     openDate: new Date("2025-09-04T13:00:00.000+07:00"),
     closeDate: new Date("2025-10-10T23:59:00.000+07:00"),
     announceDate: new Date("2025-10-18T19:00:00.000+07:00"),
-    onlyFor: [23, 24, 25], // Angkatan berapa yg diterima
+    onlyFor: [25], // Angkatan berapa yg diterima
     extends: false, //Timeline Extends atau tidak
     timeline: [
       {
@@ -3038,19 +3038,19 @@ export const oprecInfo = [
       },
       {
         description:
-          "10. Participants are required to take part in a Leaderless Group Discussion (LGD) with a schedule that will be informed through the LINE Open Recruitment Staff BEM FILKOM 2025 group.",
-      },
-      {
-        description:
-          "11. Participants are required to take part in the next stage, namely Screening / Interview which is offline after the Leaderless Group Discussion (LGD) stage with a schedule that will be informed no later than H-1 of the interview schedule.",
+          "11. Screening / Interview which is offline with a schedule that will be informed no later than H-1 of the interview schedule.",
       },
       {
         description:
           "12. The committee will confirm the attendance of the interview on the day of the interview.",
       },
-      {
+       {
         description:
           "13. Participants must be present 15 minutes before the interview schedule that has been informed.",
+      },
+      {
+        description:
+          "14. Participants are required to take part in the next stage, namely take part in a Leaderless Group Discussion (LGD) with a schedule that will be informed through the LINE Open Recruitment Staff BEM FILKOM 2025 group.",
       },
     ], //isi dari alur pendaftaran
     formFields: [
