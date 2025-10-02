@@ -2955,7 +2955,7 @@ export const oprecInfo = [
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1758982241/staffmuda2024.jpg`,
-    openDate: new Date("2025-09-04T13:00:00.000+07:00"),
+    openDate: new Date("2025-10-04T13:00:00.000+07:00"),
     closeDate: new Date("2025-10-10T23:59:00.000+07:00"),
     announceDate: new Date("2025-10-18T19:00:00.000+07:00"),
     onlyFor: [25], // Angkatan berapa yg diterima
