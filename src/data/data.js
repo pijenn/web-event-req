@@ -2951,7 +2951,7 @@ export const oprecInfo = [
       "Junior Staff SGE FILKOM 2025", // line 2
     ],
     description: [
-      "Open Recruitment of Junior Staff SGE FILKOM 2025 is one of SGE FILKOM's work programmes to attract Junior staff members of SGE FILKOM. This work programme can be registered by all KBMFILKOM who have passed the Startup Academy FILKOM.", //paragraf 1
+      "Open Recruitment of Junior Staff SGE FILKOM 2025 is one of SGE FILKOM's work programmes to attract Junior staff members of SGE FILKOM. This work programme can be registered by all KBMFILKOM who have passed the LKMM-TD.", //paragraf 1
     ],
     logo: LOGO_BEM, // gambar logo di home, login, dan robot image
     landingImage: `https://res.cloudinary.com/dks74omr4/image/upload/v1758982241/staffmuda2024.jpg`,
@@ -2970,12 +2970,12 @@ export const oprecInfo = [
         description: "Open Recruitment 📝",
       },
       {
-        date: "13 Oktober 2025",
-        description: "Leaderless Group Discussion 💬",
-      },
-      {
         date: "06 - 12 Oktober 2025",
         description: "Screening 👨‍💻",
+      },
+      {
+        date: "13 Oktober 2025",
+        description: "Leaderless Group Discussion 💬",
       },
       {
         date: "18 Oktober 2025",
